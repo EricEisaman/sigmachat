@@ -15,7 +15,7 @@ import 'package:sigmachat/utils/notification_background_handler.dart';
 import 'package:sigmachat/utils/platform_infos.dart';
 import 'config/setting_keys.dart';
 import 'utils/background_push.dart';
-import 'widgets/fluffy_chat_app.dart';
+import 'widgets/sigma_chat_app.dart';
 
 ReceivePort? mainIsolateReceivePort;
 
@@ -38,7 +38,7 @@ void main() async {
   final store = await AppSettings.init();
   Logs().i('Welcome to ${AppSettings.applicationName.value} <3');
 
-  await vod.init(wasmPath: './assets/assets/vodozemac/');
+  await vod.init(wasmPath: './assets/vodozemac/');
 
   Logs().nativeColors = !PlatformInfos.isIOS;
   final clients = await ClientManager.getClients(store: store);
@@ -79,7 +79,7 @@ Future<void> startGui(List<Client> clients, SharedPreferences store) async {
   if (PlatformInfos.isMobile) {
     try {
       pin = await const FlutterSecureStorage().read(
-        key: 'chat.fluffy.app_lock',
+        key: 'chat.sigma.app_lock',
       );
     } catch (e, s) {
       Logs().d('Unable to read PIN from Secure storage', e, s);

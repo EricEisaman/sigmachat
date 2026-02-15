@@ -1030,7 +1030,7 @@ class ChatController extends State<ChatPageWithRoom>
     }
     await scrollController.scrollToIndex(
       eventIndex + 1,
-      duration: FluffyThemes.animationDuration,
+      duration: SigmaThemes.animationDuration,
       preferPosition: AutoScrollPosition.middle,
     );
     _updateScrollController();
@@ -1381,12 +1381,12 @@ class ChatController extends State<ChatPageWithRoom>
         ValueListenableBuilder(
           valueListenable: _displayChatDetailsColumn,
           builder: (context, displayChatDetailsColumn, _) =>
-              !FluffyThemes.isThreeColumnMode(context) ||
+              !SigmaThemes.isThreeColumnMode(context) ||
                   room.membership != Membership.join ||
                   !displayChatDetailsColumn
               ? const SizedBox(height: double.infinity, width: 0)
               : Container(
-                  width: FluffyThemes.columnWidth,
+                  width: SigmaThemes.columnWidth,
                   clipBehavior: Clip.hardEdge,
                   decoration: BoxDecoration(
                     border: Border(

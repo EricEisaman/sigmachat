@@ -17,8 +17,8 @@ class ReplyDisplay extends StatelessWidget {
     final theme = Theme.of(context);
 
     return AnimatedContainer(
-      duration: FluffyThemes.animationDuration,
-      curve: FluffyThemes.animationCurve,
+      duration: SigmaThemes.animationDuration,
+      curve: SigmaThemes.animationCurve,
       height: controller.editEvent != null || controller.replyEvent != null
           ? 56
           : 0,

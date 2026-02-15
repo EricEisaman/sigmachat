@@ -19,7 +19,7 @@ import 'package:sigmachat/utils/file_description.dart';
 import 'package:sigmachat/utils/localized_exception_extension.dart';
 import 'package:sigmachat/utils/url_launcher.dart';
 import '../../../utils/matrix_sdk_extensions/event_extension.dart';
-import '../../../widgets/fluffy_chat_app.dart';
+import '../../../widgets/sigma_chat_app.dart';
 import '../../../widgets/matrix.dart';
 
 class AudioPlayerWidget extends StatefulWidget {
@@ -325,7 +325,7 @@ class AudioPlayerState extends State<AudioPlayerWidget> {
                 children: [
                   ConstrainedBox(
                     constraints: const BoxConstraints(
-                      maxWidth: FluffyThemes.columnWidth,
+                      maxWidth: SigmaThemes.columnWidth,
                     ),
                     child: Row(
                       mainAxisSize: .min,
@@ -473,7 +473,7 @@ class AudioPlayerState extends State<AudioPlayerWidget> {
                           crossFadeState: audioPlayer == null
                               ? CrossFadeState.showFirst
                               : CrossFadeState.showSecond,
-                          duration: FluffyThemes.animationDuration,
+                          duration: SigmaThemes.animationDuration,
                         ),
                       ],
                     ),

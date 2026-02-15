@@ -24,7 +24,7 @@ import 'package:sigmachat/utils/platform_infos.dart';
 import 'package:sigmachat/utils/uia_request_manager.dart';
 import 'package:sigmachat/utils/voip_plugin.dart';
 import 'package:sigmachat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
-import 'package:sigmachat/widgets/fluffy_chat_app.dart';
+import 'package:sigmachat/widgets/sigma_chat_app.dart';
 import 'package:sigmachat/widgets/future_loading_dialog.dart';
 import '../config/setting_keys.dart';
 import '../pages/key_verification/key_verification_dialog.dart';
@@ -409,7 +409,7 @@ class MatrixState extends State<Matrix> with WidgetsBindingObserver {
     final exportBytes = Uint8List.fromList(const Utf8Codec().encode(export));
 
     final exportFileName =
-        'sigmachat-export-${DateFormat(DateFormat.YEAR_MONTH_DAY).format(DateTime.now())}.fluffybackup';
+        'sigmachat-export-${DateFormat(DateFormat.YEAR_MONTH_DAY).format(DateTime.now())}.sigmabackup';
 
     final file = MatrixFile(bytes: exportBytes, name: exportFileName);
     file.save(context);

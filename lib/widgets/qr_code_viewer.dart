@@ -8,7 +8,7 @@ import 'package:qr_image/qr_image.dart';
 
 import 'package:sigmachat/config/app_config.dart';
 import 'package:sigmachat/l10n/l10n.dart';
-import 'package:sigmachat/utils/fluffy_share.dart';
+import 'package:sigmachat/utils/sigma_share.dart';
 import 'package:sigmachat/utils/matrix_sdk_extensions/matrix_file_extension.dart';
 import 'package:sigmachat/widgets/future_loading_dialog.dart';
 import '../config/themes.dart';
@@ -69,7 +69,7 @@ class QrCodeViewer extends StatelessWidget {
               backgroundColor: Colors.black.withAlpha(128),
             ),
             icon: Icon(Icons.adaptive.share_outlined),
-            onPressed: () => FluffyShare.share(inviteLink, context),
+            onPressed: () => SigmaShare.share(inviteLink, context),
             color: Colors.white,
             tooltip: L10n.of(context).share,
           ),
@@ -99,7 +99,7 @@ class QrCodeViewer extends StatelessWidget {
             children: [
               ConstrainedBox(
                 constraints: const BoxConstraints(
-                  maxWidth: FluffyThemes.columnWidth,
+                  maxWidth: SigmaThemes.columnWidth,
                 ),
                 child: PrettyQrView.data(
                   data: inviteLink,

@@ -42,11 +42,11 @@ class PIPViewState extends State<PIPView> with TickerProviderStateMixin {
     super.initState();
     _corner = widget.initialCorner;
     _toggleFloatingAnimationController = AnimationController(
-      duration: FluffyThemes.animationDuration,
+      duration: SigmaThemes.animationDuration,
       vsync: this,
     );
     _dragAnimationController = AnimationController(
-      duration: FluffyThemes.animationDuration,
+      duration: SigmaThemes.animationDuration,
       vsync: this,
     );
   }

@@ -30,8 +30,8 @@ class SettingsNotificationsView extends StatelessWidget {
     ];
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: !FluffyThemes.isColumnMode(context),
-        centerTitle: FluffyThemes.isColumnMode(context),
+        automaticallyImplyLeading: !SigmaThemes.isColumnMode(context),
+        centerTitle: SigmaThemes.isColumnMode(context),
         title: Text(L10n.of(context).notifications),
       ),
       body: MaxWidthBody(

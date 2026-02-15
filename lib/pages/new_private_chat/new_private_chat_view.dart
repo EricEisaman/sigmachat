@@ -102,7 +102,7 @@ class NewPrivateChatView extends StatelessWidget {
             ),
             Expanded(
               child: AnimatedSwitcher(
-                duration: FluffyThemes.animationDuration,
+                duration: SigmaThemes.animationDuration,
                 child: searchResponse == null
                     ? ListView(
                         children: [

@@ -23,7 +23,7 @@ class AvatarPageHeader extends StatelessWidget {
     final onAvatarEdit = this.onAvatarEdit;
     return Center(
       child: ConstrainedBox(
-        constraints: const BoxConstraints(maxWidth: FluffyThemes.columnWidth),
+        constraints: const BoxConstraints(maxWidth: SigmaThemes.columnWidth),
         child: Column(
           mainAxisSize: .min,
           crossAxisAlignment: .center,

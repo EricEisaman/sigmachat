@@ -45,8 +45,8 @@ class SigmaChatApp extends StatelessWidget {
       builder: (context, themeMode, primaryColor) => MaterialApp.router(
         title: AppSettings.applicationName.value,
         themeMode: themeMode,
-        theme: FluffyThemes.buildTheme(context, Brightness.light, primaryColor),
-        darkTheme: FluffyThemes.buildTheme(
+        theme: SigmaThemes.buildTheme(context, Brightness.light, primaryColor),
+        darkTheme: SigmaThemes.buildTheme(
           context,
           Brightness.dark,
           primaryColor,

@@ -392,11 +392,11 @@ class _SpaceViewState extends State<SpaceView> {
     final isAdmin = room?.canChangeStateEvent(EventTypes.SpaceChild) == true;
     return Scaffold(
       appBar: AppBar(
-        leading: FluffyThemes.isColumnMode(context)
+        leading: SigmaThemes.isColumnMode(context)
             ? null
             : Center(child: CloseButton(onPressed: widget.onBack)),
         automaticallyImplyLeading: false,
-        titleSpacing: FluffyThemes.isColumnMode(context) ? null : 0,
+        titleSpacing: SigmaThemes.isColumnMode(context) ? null : 0,
         title: ListTile(
           contentPadding: EdgeInsets.zero,
           leading: Avatar(

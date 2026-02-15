@@ -825,8 +825,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "sigmachat": "SigmaChat",
+    "@sigmachat": {
         "type": "String",
         "placeholders": {}
     },
@@ -997,7 +997,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "inviteText": "{username} kutsus sind kasutama Matrix'i-põhist suhtlusrakendust FluffyChat. \n1. Ava fluffychat.im ja paigalda FluffyChat'i rakendus \n2. Liitu kasutajaks või logi sisse olemasoleva Matrix'i kasutajakontoga\n3. Ava kutse link: \n {link}",
+    "inviteText": "{username} kutsus sind kasutama Matrix'i-põhist suhtlusrakendust SigmaChat. \n1. Ava sigmachat.im ja paigalda SigmaChat'i rakendus \n2. Liitu kasutajaks või logi sisse olemasoleva Matrix'i kasutajakontoga\n3. Ava kutse link: \n {link}",
     "@inviteText": {
         "type": "String",
         "placeholders": {
@@ -1169,8 +1169,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "💬 Uus sõnum FluffyChat'i vahendusel",
-    "@newMessageInFluffyChat": {
+    "newMessageInSigmaChat": "💬 Uus sõnum SigmaChat'i vahendusel",
+    "@newMessageInSigmaChat": {
         "type": "String",
         "placeholders": {}
     },
@@ -1204,7 +1204,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "noGoogleServicesWarning": "Tundub, et sinu nutiseadmes pole Firebase Cloud Messaging teenuseid. Sinu privaatsuse mõttes on see kindlasti hea otsus! Kui sa soovid FluffyChatis näha tõuketeavitusi, siis soovitame, et selle jaoks kasutad ntfy liidestust. Kasutades ntfyd või mõnda muud Unified Push standardil põhinevat liidestust saad tõuketeavitusi turvalisel moel. Ntfy rakendus on saadaval nii PlayStore kui F-Droidi rakendusepoodides.",
+    "noGoogleServicesWarning": "Tundub, et sinu nutiseadmes pole Firebase Cloud Messaging teenuseid. Sinu privaatsuse mõttes on see kindlasti hea otsus! Kui sa soovid SigmaChatis näha tõuketeavitusi, siis soovitame, et selle jaoks kasutad ntfy liidestust. Kasutades ntfyd või mõnda muud Unified Push standardil põhinevat liidestust saad tõuketeavitusi turvalisel moel. Ntfy rakendus on saadaval nii PlayStore kui F-Droidi rakendusepoodides.",
     "@noGoogleServicesWarning": {
         "type": "String",
         "placeholders": {}
@@ -1791,7 +1791,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "SigmaChat",
     "@title": {
         "description": "Title for the application",
         "type": "String",
@@ -2277,7 +2277,7 @@
     "indexedDbErrorTitle": "Brauseri privaatse akna kasutamisega seotud asjaolud",
     "dehydrateWarning": "Seda tegevust ei saa tagasi pöörata. Palun kontrolli, et sa oled varukoopia turvaliselt salvestanud.",
     "dehydrateTorLong": "Kui oled TOR'i võrgu kasutaja, siis enne akna sulgemist palun ekspordi viimase sessiooni andmed.",
-    "indexedDbErrorLong": "Privaatse akna puhul andmete salvestamine vaikimisi pole kasutusel.\nPalun toimi alljärgnevalt:\n- ava about:config\n- määra dom.indexedDB.privateBrowsing.enabled väärtuseks true\nVastasel juhul sa ei saa FluffyChat'i kasutada.",
+    "indexedDbErrorLong": "Privaatse akna puhul andmete salvestamine vaikimisi pole kasutusel.\nPalun toimi alljärgnevalt:\n- ava about:config\n- määra dom.indexedDB.privateBrowsing.enabled väärtuseks true\nVastasel juhul sa ei saa SigmaChat'i kasutada.",
     "hydrate": "Taasta varundatud failist",
     "user": "Kasutaja",
     "custom": "Kohandatud",
@@ -2296,14 +2296,14 @@
     "whyIsThisMessageEncrypted": "Miks see sõnum pole loetav?",
     "noKeyForThisMessage": "See võib juhtuda, kui sõnum oli saadetud enne, kui siin seadmes oma kontoga sisse logisid.\n\nSamuti võib juhtuda siis, kui saatja on lugemises selles seadmes blokeerinud või on tekkinud tõrkeid veebiühenduses.\n\nAga mõnes teises seadmes saad seda sõnumit lugeda? Siis sa võid sõnumi sealt üle tõsta. Ava Seadistused -> Seadmed ning kontrolli, et kõik sinu seadmed on omavahel verifitseeritud. Kui avad selle vestluse või jututoa ning mõlemad sessioonid on avatud, siis vajalikud krüptovõtmed saadetakse automaatset.\n\nKas sa soovid vältida krüptovõtmete kadumist väljalogimisel ja seadmete vahetusel? Siis palun kontrolli, et seadistuses on krüptovõtmete varundus sisse lülitatud.",
     "callingPermissions": "Helistamise õigused",
-    "callingAccountDetails": "Võimaldab FluffyChat'il kasutada Androidi helistamisrakendust.",
+    "callingAccountDetails": "Võimaldab SigmaChat'il kasutada Androidi helistamisrakendust.",
     "appearOnTop": "Luba pealmise rakendusena",
-    "otherCallingPermissions": "Mikrofoni, kaamera ja muud FluffyChat'i õigused",
+    "otherCallingPermissions": "Mikrofoni, kaamera ja muud SigmaChat'i õigused",
     "newGroup": "Uus jututuba",
     "newSpace": "Uus kogukond",
     "enterSpace": "Sisene kogukonda",
     "enterRoom": "Ava jututuba",
-    "appearOnTopDetails": "Sellega lubad rakendust avada kõige pealmisena (pole vajalik, kui Fluffychat on juba seadistatud toimima helistamiskontoga)",
+    "appearOnTopDetails": "Sellega lubad rakendust avada kõige pealmisena (pole vajalik, kui Sigmachat on juba seadistatud toimima helistamiskontoga)",
     "callingAccount": "Helistamiskonto",
     "screenSharingTitle": "ekraani jagamine",
     "foregroundServiceRunning": "See teavitus toimib siis, kui esiplaaniteenus töötab.",
@@ -2853,7 +2853,7 @@
     "oneOfYourDevicesIsNotVerified": "Üks sinu seadmetest pole verifitseeritud",
     "noticeChatBackupDeviceVerification": "Märkus: kui liidad kõik oma seadmed vestluste varundamisega, siis on nad sellega ka automaatselt verifitseeritud.",
     "continueText": "Jätka",
-    "welcomeText": "Tere, tere 👋 See on FluffyChat. Sa võid sisse logida igasse koduserverisse, mis ühildub https://matrix.org serveriga. Ja seejärel saad suhelda kõigiga. Tegemist on ikka väga suure detsentraliseeritud sõnumivõrguga!",
+    "welcomeText": "Tere, tere 👋 See on SigmaChat. Sa võid sisse logida igasse koduserverisse, mis ühildub https://matrix.org serveriga. Ja seejärel saad suhelda kõigiga. Tegemist on ikka väga suure detsentraliseeritud sõnumivõrguga!",
     "setWallpaper": "Määra taustapildiks",
     "manageAccount": "Halda kasutajakontot",
     "blur": "Hägusus:",
@@ -2906,7 +2906,7 @@
         }
     },
     "waitingForServer": "Ootame serveri vastust...",
-    "appIntroduction": "FluffyChat võimaldab sul suhelda sõprade ja tuttavatega, kes kasutavad erinevaid sõnumikliente. Lisateavet leiad https://matrix.org saidist või lihtsalt klõpsi „Jätka“.",
+    "appIntroduction": "SigmaChat võimaldab sul suhelda sõprade ja tuttavatega, kes kasutavad erinevaid sõnumikliente. Lisateavet leiad https://matrix.org saidist või lihtsalt klõpsi „Jätka“.",
     "synchronizingPleaseWaitCounter": " Sünkroniseerime… ({percentage}%)",
     "@synchronizingPleaseWaitCounter": {
         "type": "String",

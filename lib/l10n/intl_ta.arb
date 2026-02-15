@@ -436,8 +436,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "பஞ்சுபோன்ற",
-  "@fluffychat": {
+  "sigmachat": "பஞ்சுபோன்ற",
+  "@sigmachat": {
     "type": "String",
     "placeholders": {}
   },
@@ -1353,8 +1353,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "Fuf பஞ்சுபோன்ற புதிய செய்தி",
-  "@newMessageInFluffyChat": {
+  "newMessageInSigmaChat": "Fuf பஞ்சுபோன்ற புதிய செய்தி",
+  "@newMessageInSigmaChat": {
     "type": "String",
     "placeholders": {}
   },

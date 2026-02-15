@@ -14,7 +14,7 @@ import 'package:sigmachat/l10n/l10n.dart';
 import 'package:sigmachat/utils/client_download_content_extension.dart';
 import 'package:sigmachat/utils/matrix_sdk_extensions/matrix_locals.dart';
 import 'package:sigmachat/utils/push_helper.dart';
-import 'package:sigmachat/widgets/fluffy_chat_app.dart';
+import 'package:sigmachat/widgets/sigma_chat_app.dart';
 import 'package:sigmachat/widgets/matrix.dart';
 
 extension LocalNotificationsExtension on MatrixState {

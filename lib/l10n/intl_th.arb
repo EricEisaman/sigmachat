@@ -158,8 +158,8 @@
       }
     }
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "sigmachat": "SigmaChat",
+  "@sigmachat": {
     "type": "String",
     "placeholders": {}
   },
@@ -1094,7 +1094,7 @@
     }
   },
   "@callingPermissions": {},
-  "@newMessageInFluffyChat": {
+  "@newMessageInSigmaChat": {
     "type": "String",
     "placeholders": {}
   },

@@ -96,8 +96,8 @@ class ChatListViewBody extends StatelessWidget {
                               userSearchResult.results.isEmpty
                           ? 0
                           : 106,
-                      duration: FluffyThemes.animationDuration,
-                      curve: FluffyThemes.animationCurve,
+                      duration: SigmaThemes.animationDuration,
+                      curve: SigmaThemes.animationCurve,
                       child: userSearchResult == null
                           ? null
                           : ListView.builder(
@@ -146,7 +146,7 @@ class ChatListViewBody extends StatelessWidget {
                                       !AppSettings
                                           .displayNavigationRail
                                           .value &&
-                                      !FluffyThemes.isColumnMode(context))
+                                      !SigmaThemes.isColumnMode(context))
                                     ActiveFilter.spaces,
                                   ActiveFilter.unread,
                                   ActiveFilter.groups,
@@ -265,8 +265,8 @@ class PublicRoomsHorizontalList extends StatelessWidget {
       clipBehavior: Clip.hardEdge,
       decoration: const BoxDecoration(),
       height: publicRooms == null || publicRooms.isEmpty ? 0 : 106,
-      duration: FluffyThemes.animationDuration,
-      curve: FluffyThemes.animationCurve,
+      duration: SigmaThemes.animationDuration,
+      curve: SigmaThemes.animationCurve,
       child: publicRooms == null
           ? null
           : ListView.builder(

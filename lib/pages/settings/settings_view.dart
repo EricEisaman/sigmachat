@@ -8,7 +8,7 @@ import 'package:url_launcher/url_launcher_string.dart';
 import 'package:sigmachat/config/app_config.dart';
 import 'package:sigmachat/config/themes.dart';
 import 'package:sigmachat/l10n/l10n.dart';
-import 'package:sigmachat/utils/fluffy_share.dart';
+import 'package:sigmachat/utils/sigma_share.dart';
 import 'package:sigmachat/utils/platform_infos.dart';
 import 'package:sigmachat/widgets/avatar.dart';
 import 'package:sigmachat/widgets/matrix.dart';
@@ -31,7 +31,7 @@ class SettingsView extends StatelessWidget {
 
     return Row(
       children: [
-        if (FluffyThemes.isColumnMode(context)) ...[
+        if (SigmaThemes.isColumnMode(context)) ...[
           SpacesNavigationRail(
             activeSpaceId: null,
             onGoToChats: () => context.go('/rooms'),
@@ -41,7 +41,7 @@ class SettingsView extends StatelessWidget {
         ],
         Expanded(
           child: Scaffold(
-            appBar: FluffyThemes.isColumnMode(context)
+            appBar: SigmaThemes.isColumnMode(context)
                 ? null
                 : AppBar(
                     title: Text(L10n.of(context).settings),
@@ -123,7 +123,7 @@ class SettingsView extends StatelessWidget {
                                 ),
                                 TextButton.icon(
                                   onPressed: () =>
-                                      FluffyShare.share(mxid, context),
+                                      SigmaShare.share(mxid, context),
                                   icon: const Icon(
                                     Icons.copy_outlined,
                                     size: 14,

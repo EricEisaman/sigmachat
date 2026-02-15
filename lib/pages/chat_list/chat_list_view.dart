@@ -31,7 +31,7 @@ class ChatListView extends StatelessWidget {
       },
       child: Row(
         children: [
-          if (FluffyThemes.isColumnMode(context) ||
+          if (SigmaThemes.isColumnMode(context) ||
               AppSettings.displayNavigationRail.value) ...[
             SpacesNavigationRail(
               activeSpaceId: controller.activeSpaceId,

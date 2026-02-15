@@ -35,10 +35,10 @@ description: |
 
   A world where there are no companies spying on you when you send selfies to friends and lovers.
 
-  And a world where apps are made for fluffyness and not for profit. ♥
+  And a world where apps are made for sigmaness and not for profit. ♥
 
-  Join the community: https://matrix.to/#/#fluffy-space:matrix.org
-  Website: http://fluffy.chat
+  Join the community: https://matrix.to/#/#sigma-space:matrix.org
+  Website: http://sigma.chat
   Microblog: https://mastodon.art/@krille
 
 grade: stable
@@ -102,7 +102,7 @@ slots:
   dbus-svc:
     interface: dbus
     bus: session
-    name: chat.fluffy.sigmachat
+    name: chat.sigma.sigmachat
 
 apps:
   sigmachat:

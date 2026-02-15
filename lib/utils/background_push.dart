@@ -1,7 +1,7 @@
 /*
  *   Famedly
  *   Copyright (C) 2020, 2021 Famedly GmbH
- *   Copyright (C) 2021 Fluffychat
+ *   Copyright (C) 2021 Sigmachat
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU Affero General Public License as
@@ -37,7 +37,7 @@ import 'package:sigmachat/l10n/l10n.dart';
 import 'package:sigmachat/main.dart';
 import 'package:sigmachat/utils/notification_background_handler.dart';
 import 'package:sigmachat/utils/push_helper.dart';
-import 'package:sigmachat/widgets/fluffy_chat_app.dart';
+import 'package:sigmachat/widgets/sigma_chat_app.dart';
 import '../config/app_config.dart';
 import '../config/setting_keys.dart';
 import '../widgets/matrix.dart';

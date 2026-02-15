@@ -826,8 +826,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "sigmachat": "SigmaChat",
+    "@sigmachat": {
         "type": "String",
         "placeholders": {}
     },
@@ -998,7 +998,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "inviteText": "{username} heeft je uitgenodigd voor FluffyChat.\n1. Bezoek https://fluffychat.im en installeer de app\n2. Registreer of log in\n3. Open deze uitnodigingslink:\n{link}",
+    "inviteText": "{username} heeft je uitgenodigd voor SigmaChat.\n1. Bezoek https://sigmachat.im en installeer de app\n2. Registreer of log in\n3. Open deze uitnodigingslink:\n{link}",
     "@inviteText": {
         "type": "String",
         "placeholders": {
@@ -1170,8 +1170,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "💬 Nieuw bericht in FluffyChat",
-    "@newMessageInFluffyChat": {
+    "newMessageInSigmaChat": "💬 Nieuw bericht in SigmaChat",
+    "@newMessageInSigmaChat": {
         "type": "String",
         "placeholders": {}
     },
@@ -1792,7 +1792,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "SigmaChat",
     "@title": {
         "description": "Title for the application",
         "type": "String",
@@ -2269,7 +2269,7 @@
     "hydrateTorLong": "Heb je de vorige keer jouw sessie geëxporteerd met TOR? Importeer het dan snel en ga verder met chatten.",
     "hydrate": "Herstellen vanuit back-upbestand",
     "indexedDbErrorTitle": "Problemen met privémodus",
-    "indexedDbErrorLong": "Het opslaan van berichten is helaas niet standaard ingeschakeld in de privémodus.\nBezoek alsjeblieft\n - about:config\n - stel dom.indexedDB.privateBrowsing.enabled in op true\nAnders is het niet mogelijk om FluffyChat op te starten.",
+    "indexedDbErrorLong": "Het opslaan van berichten is helaas niet standaard ingeschakeld in de privémodus.\nBezoek alsjeblieft\n - about:config\n - stel dom.indexedDB.privateBrowsing.enabled in op true\nAnders is het niet mogelijk om SigmaChat op te starten.",
     "countFiles": "{count} bestanden",
     "@countFiles": {
         "placeholders": {
@@ -2301,10 +2301,10 @@
     "screenSharingDetail": "Je deelt je scherm in FuffyChat",
     "callingPermissions": "Telefoon-rechten",
     "callingAccount": "Telefoon-account",
-    "callingAccountDetails": "Hiermee kan FluffyChat de Android telefoon-app gebruiken.",
+    "callingAccountDetails": "Hiermee kan SigmaChat de Android telefoon-app gebruiken.",
     "appearOnTop": "Bovenaan verschijnen",
-    "appearOnTopDetails": "Laat de app bovenaan verschijnen (niet nodig als je FluffyChat al hebt ingesteld als een bel-account)",
-    "otherCallingPermissions": "Microfoon, camera en andere FluffyChat-rechten",
+    "appearOnTopDetails": "Laat de app bovenaan verschijnen (niet nodig als je SigmaChat al hebt ingesteld als een bel-account)",
+    "otherCallingPermissions": "Microfoon, camera en andere SigmaChat-rechten",
     "newGroup": "Nieuwe groep",
     "newSpace": "Space aanmaken",
     "enterRoom": "Chat betreden",
@@ -2909,7 +2909,7 @@
         }
     },
     "continueText": "Doorgaan",
-    "welcomeText": "Hallo hallo 👋 Dit is FluffyChat. Je kan inloggen op elke server die werkt met https://matrix.org. En dan chat je met iedereen. Het is een groot decentraal chat-netwerk!",
+    "welcomeText": "Hallo hallo 👋 Dit is SigmaChat. Je kan inloggen op elke server die werkt met https://matrix.org. En dan chat je met iedereen. Het is een groot decentraal chat-netwerk!",
     "appWantsToUseForLogin": "Inloggen met '{server}'",
     "@appWantsToUseForLogin": {
         "type": "String",
@@ -2921,7 +2921,7 @@
     },
     "appWantsToUseForLoginDescription": "Hierbij sta je toe dat de app en website informatie over je delen.",
     "open": "Open",
-    "appIntroduction": "FluffyChat laat je chatten met je vrienden tussen verschillende chat-netwerken. Lees meer op https://matrix.org of tik *Continue*.",
+    "appIntroduction": "SigmaChat laat je chatten met je vrienden tussen verschillende chat-netwerken. Lees meer op https://matrix.org of tik *Continue*.",
     "completedKeyVerification": "{sender} ronde de sleutelverificatie af",
     "@completedKeyVerification": {
         "type": "String",

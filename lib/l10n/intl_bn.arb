@@ -136,8 +136,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "fluffychat": "ফ্লাফিচ্যাট",
-    "@fluffychat": {
+    "sigmachat": "ফ্লাফিচ্যাট",
+    "@sigmachat": {
         "type": "String",
         "placeholders": {}
     },

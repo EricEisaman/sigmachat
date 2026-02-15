@@ -177,8 +177,8 @@ class SignInPage extends StatelessWidget {
                 )
               : Center(child: CircularProgressIndicator.adaptive()),
           bottomNavigationBar: AnimatedSize(
-            duration: FluffyThemes.animationDuration,
-            curve: FluffyThemes.animationCurve,
+            duration: SigmaThemes.animationDuration,
+            curve: SigmaThemes.animationCurve,
             child:
                 selectedHomserver == null ||
                     !publicHomeservers.contains(selectedHomserver)

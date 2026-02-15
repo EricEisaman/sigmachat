@@ -8,7 +8,7 @@ import 'package:matrix/matrix.dart';
 import 'package:sigmachat/config/themes.dart';
 import 'package:sigmachat/l10n/l10n.dart';
 import 'package:sigmachat/utils/error_reporter.dart';
-import 'package:sigmachat/utils/fluffy_share.dart';
+import 'package:sigmachat/utils/sigma_share.dart';
 import 'package:sigmachat/utils/localized_exception_extension.dart';
 import 'package:sigmachat/utils/platform_infos.dart';
 import 'package:sigmachat/utils/sync_status_localization.dart';
@@ -174,7 +174,7 @@ class BootstrapDialogState extends State<BootstrapDialog> {
         body: Center(
           child: ConstrainedBox(
             constraints: const BoxConstraints(
-              maxWidth: FluffyThemes.columnWidth * 1.5,
+              maxWidth: SigmaThemes.columnWidth * 1.5,
             ),
             child: ListView(
               padding: const EdgeInsets.all(16.0),
@@ -224,7 +224,7 @@ class BootstrapDialogState extends State<BootstrapDialog> {
                   value: _recoveryKeyCopied,
                   activeColor: theme.colorScheme.primary,
                   onChanged: (b) {
-                    FluffyShare.share(key!, context);
+                    SigmaShare.share(key!, context);
                     setState(() => _recoveryKeyCopied = true);
                   },
                   title: Text(L10n.of(context).copyToClipboard),
@@ -292,7 +292,7 @@ class BootstrapDialogState extends State<BootstrapDialog> {
             body: Center(
               child: ConstrainedBox(
                 constraints: const BoxConstraints(
-                  maxWidth: FluffyThemes.columnWidth * 1.5,
+                  maxWidth: SigmaThemes.columnWidth * 1.5,
                 ),
                 child: ListView(
                   padding: const EdgeInsets.all(16.0),

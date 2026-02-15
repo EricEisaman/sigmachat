@@ -518,8 +518,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "sigmachat": "SigmaChat",
+    "@sigmachat": {
         "type": "String",
         "placeholders": {}
     },
@@ -635,7 +635,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "inviteText": "{username}(e)k FluffyChatera gonbidatu zaitu.\n1. Bisitatu https://fluffychat.im eta instalatu aplikazioa\n2. Eman izena edo hasi saioa\n3. Ireki gonbidapen-esteka:\n{link}",
+    "inviteText": "{username}(e)k SigmaChatera gonbidatu zaitu.\n1. Bisitatu https://sigmachat.im eta instalatu aplikazioa\n2. Eman izena edo hasi saioa\n3. Ireki gonbidapen-esteka:\n{link}",
     "@inviteText": {
         "type": "String",
         "placeholders": {
@@ -777,8 +777,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "💬 Mezu berria FluffyChaten",
-    "@newMessageInFluffyChat": {
+    "newMessageInSigmaChat": "💬 Mezu berria SigmaChaten",
+    "@newMessageInSigmaChat": {
         "type": "String",
         "placeholders": {}
     },
@@ -1134,7 +1134,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "SigmaChat",
     "@title": {
         "description": "Title for the application",
         "type": "String",
@@ -2260,7 +2260,7 @@
     "dehydrateWarning": "Ekintza hau ezin da desegin. Egiaztatu babeskopia toki seguruan gorde duzula.",
     "hydrate": "Lehengoratu babeskopia bat erabiliz",
     "pleaseEnterRecoveryKeyDescription": "Mezu zaharrak ikusi ahal izateko, sartu aurreko saioan sortu zen berreskuratze-gakoa. Berreskuratze-gakoa EZ da zure pasahitza.",
-    "indexedDbErrorLong": "Mezuen artxibatzea ez dago defektuz gaituta modu pribatua erabiltzean.\nGaitzeko:\n - about:config\n - dom.indexedDB.privateBrowsing.enabled aukerak true erakutsi dezala\nBestela ezin da FluffyChat erabili.",
+    "indexedDbErrorLong": "Mezuen artxibatzea ez dago defektuz gaituta modu pribatua erabiltzean.\nGaitzeko:\n - about:config\n - dom.indexedDB.privateBrowsing.enabled aukerak true erakutsi dezala\nBestela ezin da SigmaChat erabili.",
     "storeSecurlyOnThisDevice": "Gorde gailu honetan modu seguruan",
     "countFiles": "{count} fitxategi",
     "@countFiles": {
@@ -2288,14 +2288,14 @@
     "allSpaces": "Gune guztiak",
     "newGroup": "Talde berria",
     "enterSpace": "Sartu gunera",
-    "appearOnTopDetails": "Aplikazioa goikaldean agertzea baimentzen du (ez da beharrezkoa FluffyChat deitzeko kontutzat ezarri baduzu)",
+    "appearOnTopDetails": "Aplikazioa goikaldean agertzea baimentzen du (ez da beharrezkoa SigmaChat deitzeko kontutzat ezarri baduzu)",
     "screenSharingTitle": "pantaila-partekatzea",
-    "screenSharingDetail": "Pantaila FluffyChaten partekatzen ari zara",
+    "screenSharingDetail": "Pantaila SigmaChaten partekatzen ari zara",
     "callingPermissions": "Deitzeko baimenak",
     "callingAccount": "Deitzen ari den kontua",
-    "callingAccountDetails": "Baimendu FluffyChat Android gailuko telefono-markagailua erabiltzea.",
+    "callingAccountDetails": "Baimendu SigmaChat Android gailuko telefono-markagailua erabiltzea.",
     "appearOnTop": "Gainean erakutsi",
-    "otherCallingPermissions": "Mikrofono, kamera eta FluffyChaten beste baimen batzuk",
+    "otherCallingPermissions": "Mikrofono, kamera eta SigmaChaten beste baimen batzuk",
     "numChats": "{number} txat",
     "@numChats": {
         "type": "number",
@@ -2857,7 +2857,7 @@
     "setWallpaper": "Ezarri horma-irudia",
     "blur": "Lausotu:",
     "continueText": "Jarraitu",
-    "welcomeText": "Ieup 👋 Ongi etorri FluffyChat-era. https://matrix.org-rekin bateragarria den edozein zerbitzaritan hasi dezakezu saioa eta edonorekin txateatu. Mezularitza-sare deszentralizatu eraraldoia da!",
+    "welcomeText": "Ieup 👋 Ongi etorri SigmaChat-era. https://matrix.org-rekin bateragarria den edozein zerbitzaritan hasi dezakezu saioa eta edonorekin txateatu. Mezularitza-sare deszentralizatu eraraldoia da!",
     "contactServerAdmin": "Jarri harremanetan zerbitzariaren administratzailearekin",
     "aboutHomeserver": "{homeserver}(e)ri buruz",
     "@aboutHomeserver": {
@@ -2917,7 +2917,7 @@
     "roomNotificationSettings": "Gelen jakinarazpenen ezarpenak",
     "otherNotificationSettings": "Beste jakinarazpenen ezarpenak",
     "waitingForServer": "Zerbitzariaren zain…",
-    "appIntroduction": "FluffyChatek mezularitza-programa desberdinak erabiltzen dituzten lagunekin txateatzea ahalbidetzen dizu. Ikasi gehiago https://matrix.org estekan edo sakatu *Jarraitu*.",
+    "appIntroduction": "SigmaChatek mezularitza-programa desberdinak erabiltzen dituzten lagunekin txateatzea ahalbidetzen dizu. Ikasi gehiago https://matrix.org estekan edo sakatu *Jarraitu*.",
     "synchronizingPleaseWaitCounter": " Sinkronizatzen… (%{percentage})",
     "@synchronizingPleaseWaitCounter": {
         "type": "String",

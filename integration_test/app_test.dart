@@ -24,7 +24,7 @@ void main() {
         () async {
           // this random dialog popping up is super hard to cover in tests
           SharedPreferences.setMockInitialValues({
-            'chat.fluffy.show_no_google': false,
+            'chat.sigma.show_no_google': false,
           });
         },
       );

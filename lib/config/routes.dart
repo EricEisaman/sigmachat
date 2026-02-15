@@ -120,7 +120,7 @@ abstract class AppRoutes {
       pageBuilder: (context, state, child) => noTransitionPageBuilder(
         context,
         state,
-        FluffyThemes.isColumnMode(context) &&
+        SigmaThemes.isColumnMode(context) &&
                 state.fullPath?.startsWith('/rooms/settings') == false
             ? TwoColumnLayout(
                 mainView: ChatList(
@@ -140,7 +140,7 @@ abstract class AppRoutes {
           pageBuilder: (context, state) => defaultPageBuilder(
             context,
             state,
-            FluffyThemes.isColumnMode(context)
+            SigmaThemes.isColumnMode(context)
                 ? const EmptyPage()
                 : ChatList(
                     activeChat: state.pathParameters['roomid'],
@@ -193,7 +193,7 @@ abstract class AppRoutes {
               pageBuilder: (context, state, child) => defaultPageBuilder(
                 context,
                 state,
-                FluffyThemes.isColumnMode(context)
+                SigmaThemes.isColumnMode(context)
                     ? TwoColumnLayout(
                         mainView: Settings(key: state.pageKey),
                         sideView: child,
@@ -206,7 +206,7 @@ abstract class AppRoutes {
                   pageBuilder: (context, state) => defaultPageBuilder(
                     context,
                     state,
-                    FluffyThemes.isColumnMode(context)
+                    SigmaThemes.isColumnMode(context)
                         ? const EmptyPage()
                         : const Settings(),
                   ),
@@ -490,7 +490,7 @@ abstract class AppRoutes {
     BuildContext context,
     GoRouterState state,
     Widget child,
-  ) => FluffyThemes.isColumnMode(context)
+  ) => SigmaThemes.isColumnMode(context)
       ? noTransitionPageBuilder(context, state, child)
       : MaterialPage(
           key: state.pageKey,

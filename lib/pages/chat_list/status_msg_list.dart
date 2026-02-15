@@ -34,7 +34,7 @@ class StatusMessageList extends StatelessWidget {
       stream: client.onSync.stream.rateLimit(const Duration(seconds: 3)),
       builder: (context, snapshot) {
         return AnimatedSize(
-          duration: FluffyThemes.animationDuration,
+          duration: SigmaThemes.animationDuration,
           curve: Curves.easeInOut,
           child: FutureBuilder(
             initialData: interestingPresences
@@ -135,8 +135,8 @@ class PresenceAvatar extends StatelessWidget {
                   builder: (context, hovered) {
                     return AnimatedScale(
                       scale: hovered ? 1.15 : 1.0,
-                      duration: FluffyThemes.animationDuration,
-                      curve: FluffyThemes.animationCurve,
+                      duration: SigmaThemes.animationDuration,
+                      curve: SigmaThemes.animationCurve,
                       child: InkWell(
                         borderRadius: BorderRadius.circular(avatarSize),
                         onTap: profile == null ? null : () => onTap(profile),

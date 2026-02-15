@@ -152,7 +152,7 @@
         "placeholders": {}
     },
     "messageType": "Ziņas veids",
-    "indexedDbErrorLong": "Diemžēl ziņu krātuve pēc noklusējuma nav iespējota privātajā režīmā.\nLūgums apmeklēt\n - about:config\n - iestatīt dom.indexedDB.privateBrowsing.enabled kā true\nPretējā gadījumā nav iespējams palaist FluffyChat.",
+    "indexedDbErrorLong": "Diemžēl ziņu krātuve pēc noklusējuma nav iespējota privātajā režīmā.\nLūgums apmeklēt\n - about:config\n - iestatīt dom.indexedDB.privateBrowsing.enabled kā true\nPretējā gadījumā nav iespējams palaist SigmaChat.",
     "oneClientLoggedOut": "Viens no klientiem ir atteicies",
     "toggleMuted": "Pārslēgt apklusināšanu",
     "@toggleMuted": {
@@ -172,7 +172,7 @@
             }
         }
     },
-    "title": "FluffyChat",
+    "title": "SigmaChat",
     "@title": {
         "description": "Title for the application",
         "type": "String",
@@ -497,7 +497,7 @@
         }
     },
     "youRejectedTheInvitation": "Tu noraidīji uzaicinājumu",
-    "otherCallingPermissions": "Mikrofons, kamera un citas FluffyChat atļaujas",
+    "otherCallingPermissions": "Mikrofons, kamera un citas SigmaChat atļaujas",
     "messagesStyle": "Ziņas:",
     "couldNotDecryptMessage": "Nevarēja atšifrēt ziņu: {error}",
     "@couldNotDecryptMessage": {
@@ -518,7 +518,7 @@
     "emailOrUsername": "E-pasta adrese vai lietotājvārds",
     "newSpaceDescription": "Vietas ļauj apvienot tērzēšanas un būvēt privātas vai publiskas kopienas.",
     "chatDescription": "Tērzēšanas apraksts",
-    "callingAccountDetails": "Ļauj FluffyChat izmantot iebūvēto Android zvanīšanas lietotni.",
+    "callingAccountDetails": "Ļauj SigmaChat izmantot iebūvēto Android zvanīšanas lietotni.",
     "next": "Nākamais",
     "@next": {
         "type": "String",
@@ -670,7 +670,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "inviteText": "{username} uzaicināja pievienoties FluffyChat.\n1. Jāapmeklē fluffychat.im un jāuzstāda lietotne \n2. Jāizveido konts vai jāpiesakās \n3. Jāatver uzaicinājuma saite: \n {link}",
+    "inviteText": "{username} uzaicināja pievienoties SigmaChat.\n1. Jāapmeklē sigmachat.im un jāuzstāda lietotne \n2. Jāizveido konts vai jāpiesakās \n3. Jāatver uzaicinājuma saite: \n {link}",
     "@inviteText": {
         "type": "String",
         "placeholders": {
@@ -1099,8 +1099,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "💬 Jauna ziņa FluffyChat",
-    "@newMessageInFluffyChat": {
+    "newMessageInSigmaChat": "💬 Jauna ziņa SigmaChat",
+    "@newMessageInSigmaChat": {
         "type": "String",
         "placeholders": {}
     },
@@ -1423,7 +1423,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "appearOnTopDetails": "Ļauj lietotnei parādīties virspusē (nav nepieciešams, ja FluffyChat jau ir iestatīts kā zvanīšanas konts)",
+    "appearOnTopDetails": "Ļauj lietotnei parādīties virspusē (nav nepieciešams, ja SigmaChat jau ir iestatīts kā zvanīšanas konts)",
     "roomHasBeenUpgraded": "Istaba tika atjaunināta",
     "@roomHasBeenUpgraded": {
         "type": "String",
@@ -1682,8 +1682,8 @@
         "placeholders": {}
     },
     "unverified": "Neapliecināta",
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "sigmachat": "SigmaChat",
+    "@sigmachat": {
         "type": "String",
         "placeholders": {}
     },
@@ -2437,7 +2437,7 @@
         "placeholders": {}
     },
     "pinMessage": "Piespraust istabai",
-    "screenSharingDetail": "Tu kopīgo savu ekrānu FluffyChat",
+    "screenSharingDetail": "Tu kopīgo savu ekrānu SigmaChat",
     "muteChat": "Apklusināt tērzēšanu",
     "@muteChat": {
         "type": "String",
@@ -2836,7 +2836,7 @@
     "oneOfYourDevicesIsNotVerified": "Viena no ierīcēm nav apliecināta",
     "noticeChatBackupDeviceVerification": "Piezīme: kad visas ierīces tiek savienotas ar tērzēšanu rezerves kopiju, tās tiek automātiski apliecinātas.",
     "continueText": "Turpināt",
-    "welcomeText": "Sveicieni! 👋 Šis ir FluffyChat. Tu vari pieteikties jebkurā mājasserverī, kas ir saderīgs ar https://matrix.org. Tad vari tērzēt ar ikvienu. Tas ir milzīgs decentralizētās saziņas tīkls.",
+    "welcomeText": "Sveicieni! 👋 Šis ir SigmaChat. Tu vari pieteikties jebkurā mājasserverī, kas ir saderīgs ar https://matrix.org. Tad vari tērzēt ar ikvienu. Tas ir milzīgs decentralizētās saziņas tīkls.",
     "blur": "Aizmiglojums:",
     "setWallpaper": "Iestatīt ekrāntapeti",
     "opacity": "Necaurredzamība:",
@@ -2876,7 +2876,7 @@
     "compress": "Saspiest",
     "unableToJoinChat": "Nevarēja pievienoties tērzēšanai. Varbūt otra puse jau ir aizvērusi sarunu.",
     "appWantsToUseForLoginDescription": "Ar šo tiek ļauts lietotnei un tīmekļvietnei kopīgot informāciju par Tevi.",
-    "appIntroduction": "FluffyChat ļauj tērzēt ar draugiem, kuri izmanto dažādas ziņojumapmaiņas lietotnes. Vairāk var uzzināt https://matrix.org vai vienkārši piesitot *Turpināt*.",
+    "appIntroduction": "SigmaChat ļauj tērzēt ar draugiem, kuri izmanto dažādas ziņojumapmaiņas lietotnes. Vairāk var uzzināt https://matrix.org vai vienkārši piesitot *Turpināt*.",
     "synchronizingPleaseWaitCounter": " Sinhronizē... ({percentage}%)",
     "@synchronizingPleaseWaitCounter": {
         "type": "String",

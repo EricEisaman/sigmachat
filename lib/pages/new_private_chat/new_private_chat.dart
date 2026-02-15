@@ -10,7 +10,7 @@ import 'package:sigmachat/l10n/l10n.dart';
 import 'package:sigmachat/pages/new_private_chat/new_private_chat_view.dart';
 import 'package:sigmachat/pages/new_private_chat/qr_scanner_modal.dart';
 import 'package:sigmachat/utils/adaptive_bottom_sheet.dart';
-import 'package:sigmachat/utils/fluffy_share.dart';
+import 'package:sigmachat/utils/sigma_share.dart';
 import 'package:sigmachat/utils/platform_infos.dart';
 import 'package:sigmachat/utils/url_launcher.dart';
 import 'package:sigmachat/widgets/matrix.dart';
@@ -66,7 +66,7 @@ class NewPrivateChatController extends State<NewPrivateChat> {
     return profiles;
   }
 
-  void inviteAction() => FluffyShare.shareInviteLink(context);
+  void inviteAction() => SigmaShare.shareInviteLink(context);
 
   void openScannerAction() async {
     if (PlatformInfos.isAndroid) {

@@ -130,8 +130,8 @@ class ChatInputRow extends StatelessWidget {
               : <Widget>[
                   const SizedBox(width: 4),
                   AnimatedContainer(
-                    duration: FluffyThemes.animationDuration,
-                    curve: FluffyThemes.animationCurve,
+                    duration: SigmaThemes.animationDuration,
+                    curve: SigmaThemes.animationCurve,
                     width: textMessageOnly ? 0 : 48,
                     height: height,
                     alignment: Alignment.center,
@@ -221,8 +221,8 @@ class ChatInputRow extends StatelessWidget {
                   ),
                   if (PlatformInfos.isMobile)
                     AnimatedContainer(
-                      duration: FluffyThemes.animationDuration,
-                      curve: FluffyThemes.animationCurve,
+                      duration: SigmaThemes.animationDuration,
+                      curve: SigmaThemes.animationCurve,
                       width: textMessageOnly ? 0 : 48,
                       height: height,
                       alignment: Alignment.center,

@@ -824,8 +824,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "sigmachat": "SigmaChat",
+    "@sigmachat": {
         "type": "String",
         "placeholders": {}
     },
@@ -996,7 +996,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "inviteText": "{username} hat Dich zu FluffyChat eingeladen. \n1. Gehe auf fluffychat.im und installiere die App \n2. Melde Dich in der App an \n3. Öffne den Einladungslink: \n {link}",
+    "inviteText": "{username} hat Dich zu SigmaChat eingeladen. \n1. Gehe auf sigmachat.im und installiere die App \n2. Melde Dich in der App an \n3. Öffne den Einladungslink: \n {link}",
     "@inviteText": {
         "type": "String",
         "placeholders": {
@@ -1168,8 +1168,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "💬 Neue Nachricht in FluffyChat",
-    "@newMessageInFluffyChat": {
+    "newMessageInSigmaChat": "💬 Neue Nachricht in SigmaChat",
+    "@newMessageInSigmaChat": {
         "type": "String",
         "placeholders": {}
     },
@@ -1778,7 +1778,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "SigmaChat",
     "@title": {
         "description": "Title for the application",
         "type": "String",
@@ -2284,7 +2284,7 @@
     "users": "Benutzer",
     "storeInSecureStorageDescription": "Speicher den Wiederherstellungsschlüssel im sicheren Speicher dieses Geräts.",
     "storeInAppleKeyChain": "Im Apple KeyChain speichern",
-    "indexedDbErrorLong": "Die Nachrichtenspeicherung ist im privaten Modus standardmäßig leider nicht aktiviert.\nBitte besuche\n- about:config\n- Setze dom.indexedDB.privateBrowsing.enabled auf true\nAndernfalls ist es nicht möglich, FluffyChat auszuführen.",
+    "indexedDbErrorLong": "Die Nachrichtenspeicherung ist im privaten Modus standardmäßig leider nicht aktiviert.\nBitte besuche\n- about:config\n- Setze dom.indexedDB.privateBrowsing.enabled auf true\nAndernfalls ist es nicht möglich, SigmaChat auszuführen.",
     "confirmMatrixId": "Bitte bestätigen deine Matrix-ID, um dein Konto zu löschen.",
     "supposedMxid": "das sollte sein {mxid}",
     "@supposedMxid": {
@@ -2299,15 +2299,15 @@
     "commandHint_markasgroup": "Als Gruppe markieren",
     "hideUnimportantStateEvents": "Blende unwichtige Zustandsereignisse aus",
     "doNotShowAgain": "Nicht mehr anzeigen",
-    "appearOnTopDetails": "Ermöglicht, dass die App oben angezeigt wird (nicht erforderlich, wenn du Fluffychat bereits als Anrufkonto eingerichtet haben)",
+    "appearOnTopDetails": "Ermöglicht, dass die App oben angezeigt wird (nicht erforderlich, wenn du Sigmachat bereits als Anrufkonto eingerichtet haben)",
     "noKeyForThisMessage": "Dies kann passieren, wenn die Nachricht gesendet wurde, bevor du dich auf diesem Gerät bei deinem Konto angemeldet hast.\n\nEs ist auch möglich, dass der Absender dein Gerät blockiert hat oder etwas mit der Internetverbindung schief gelaufen ist.\n\nKannst du die Nachricht in einer anderen Sitzung lesen? Dann kannst du die Nachricht davon übertragen! Gehe zu den Einstellungen > Geräte und vergewissere dich, dass sich deine Geräte gegenseitig verifiziert haben. Wenn du den Raum das nächste Mal öffnest und beide Sitzungen im Vordergrund sind, werden die Schlüssel automatisch übertragen.\n\nDu möchtest die Schlüssel beim Abmelden oder Gerätewechsel nicht verlieren? Stelle sicher, dass du das Chat-Backup in den Einstellungen aktiviert hast.",
     "foregroundServiceRunning": "Diese Benachrichtigung wird angezeigt, wenn der Vordergrunddienst ausgeführt wird.",
     "screenSharingTitle": "Bildschirm teilen",
     "callingPermissions": "Anrufberechtigungen",
     "callingAccount": "Anrufkonto",
-    "callingAccountDetails": "Ermöglicht FluffyChat, die native Android-Dialer-App zu verwenden.",
+    "callingAccountDetails": "Ermöglicht SigmaChat, die native Android-Dialer-App zu verwenden.",
     "appearOnTop": "Oben erscheinen",
-    "otherCallingPermissions": "Mikrofon, Kamera und andere FluffyChat-Berechtigungen",
+    "otherCallingPermissions": "Mikrofon, Kamera und andere SigmaChat-Berechtigungen",
     "whyIsThisMessageEncrypted": "Warum ist diese Nachricht nicht lesbar?",
     "newGroup": "Neue Gruppe",
     "newSpace": "Neuer Space",
@@ -2854,7 +2854,7 @@
     "noticeChatBackupDeviceVerification": "Hinweis: Wenn du alle deine Geräte mit dem Chat-Backup verbindest, sind sie automatisch verifiziert.",
     "setWallpaper": "Hintergrund ändern",
     "opacity": "Deckkraft:",
-    "welcomeText": "Hey Hey 👋 Das ist FluffyChat. Du kannst sich bei jedem Homeserver anmelden, der mit https://matrix.org kompatibel ist. Und dann mit jedem chatten. Das hier ist ein riesiges dezentrales Nachrichtennetzwerk!",
+    "welcomeText": "Hey Hey 👋 Das ist SigmaChat. Du kannst sich bei jedem Homeserver anmelden, der mit https://matrix.org kompatibel ist. Und dann mit jedem chatten. Das hier ist ein riesiges dezentrales Nachrichtennetzwerk!",
     "blur": "Verwischen:",
     "manageAccount": "Konto verwalten",
     "continueText": "Fortfahren",
@@ -2892,7 +2892,7 @@
     "compress": "Komprimieren",
     "supportPage": "Support-Seite",
     "serverInformation": "Server-Informationen:",
-    "appIntroduction": "Mit FluffyChat kannst du über verschiedene Messenger hinweg mit deinen Freunden chatten. Erfahre mehr dazu auf https://matrix.org oder tippe einfach auf *Fortfahren*.",
+    "appIntroduction": "Mit SigmaChat kannst du über verschiedene Messenger hinweg mit deinen Freunden chatten. Erfahre mehr dazu auf https://matrix.org oder tippe einfach auf *Fortfahren*.",
     "newChatRequest": "📩 Neue Chat-Anfrage",
     "synchronizingPleaseWaitCounter": " Synchronisierung… ({percentage}%)",
     "@synchronizingPleaseWaitCounter": {

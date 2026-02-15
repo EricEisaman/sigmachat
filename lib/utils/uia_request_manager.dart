@@ -8,7 +8,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:sigmachat/l10n/l10n.dart';
 import 'package:sigmachat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
 import 'package:sigmachat/widgets/adaptive_dialogs/show_text_input_dialog.dart';
-import 'package:sigmachat/widgets/fluffy_chat_app.dart';
+import 'package:sigmachat/widgets/sigma_chat_app.dart';
 import 'package:sigmachat/widgets/matrix.dart';
 
 extension UiaRequestManager on MatrixState {

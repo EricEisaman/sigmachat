@@ -169,8 +169,8 @@ class _ShareScaffoldDialogState extends State<ShareScaffoldDialog> {
         ],
       ),
       bottomNavigationBar: AnimatedSize(
-        duration: FluffyThemes.animationDuration,
-        curve: FluffyThemes.animationCurve,
+        duration: SigmaThemes.animationDuration,
+        curve: SigmaThemes.animationCurve,
         child: selectedRoomId == null
             ? const SizedBox.shrink()
             : Material(

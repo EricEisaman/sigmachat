@@ -806,8 +806,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "sigmachat": "SigmaChat",
+    "@sigmachat": {
         "type": "String",
         "placeholders": {}
     },
@@ -978,7 +978,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "inviteText": "{username} te je pozvao/la u FluffyChat. \n1. Posjeti strnicu fluffychat.im i instaliraj aplikaciju \n2. Registriraj ili prijavi se \n3. Otvori poveznicu poziva: \n {link}",
+    "inviteText": "{username} te je pozvao/la u SigmaChat. \n1. Posjeti strnicu sigmachat.im i instaliraj aplikaciju \n2. Registriraj ili prijavi se \n3. Otvori poveznicu poziva: \n {link}",
     "@inviteText": {
         "type": "String",
         "placeholders": {
@@ -1140,8 +1140,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "💬 Nova poruka u FluffyChatu",
-    "@newMessageInFluffyChat": {
+    "newMessageInSigmaChat": "💬 Nova poruka u SigmaChatu",
+    "@newMessageInSigmaChat": {
         "type": "String",
         "placeholders": {}
     },
@@ -1730,7 +1730,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "SigmaChat",
     "@title": {
         "description": "Title for the application",
         "type": "String",
@@ -2173,7 +2173,7 @@
     "hydrateTor": "Korisnici TOR-a: Uzvezite izvoz sesije",
     "dehydrateTor": "Korisnici TOR-a: izvezite sesiju",
     "emojis": "Emojiji",
-    "indexedDbErrorLong": "Spremište poruka nažalost nije standarno uključena u privatnom modusu.\nOtvori stranicu\n - about:config\n - postavi dom.indexedDB.privateBrowsing.enabled na true\nFluffyChat se inače neće moći pokrenuti.",
+    "indexedDbErrorLong": "Spremište poruka nažalost nije standarno uključena u privatnom modusu.\nOtvori stranicu\n - about:config\n - postavi dom.indexedDB.privateBrowsing.enabled na true\nSigmaChat se inače neće moći pokrenuti.",
     "storeSecurlyOnThisDevice": "Spremi sigurno na ovom uređaju",
     "countFiles": "Broj datoteka: {count}",
     "@countFiles": {
@@ -2320,7 +2320,7 @@
     "deviceKeys": "Ključevi uređaja:",
     "foregroundServiceRunning": "Ova se obavijest pojavljuje kada se pokreće usluga u prvom planu.",
     "callingPermissions": "Dozvole za pozivanje",
-    "callingAccountDetails": "Omogućuje FluffyChatu korištenje izvorne Android aplikacije za pozivanje.",
+    "callingAccountDetails": "Omogućuje SigmaChatu korištenje izvorne Android aplikacije za pozivanje.",
     "callingAccount": "Račun za pozivanje",
     "commandHint_hug": "Pošalji grljenje",
     "commandHint_googly": "Pošalji kotrljajuće oči",
@@ -2337,12 +2337,12 @@
     },
     "enterRoom": "Upiši sobu",
     "screenSharingDetail": "Dijeliš svoj ekran u FuffyChatu",
-    "appearOnTopDetails": "Omogućuje prikaz aplikacije ispred drugih (nije potrebno ako je FluffyChat već postavljen kao račun za pozivanje)",
+    "appearOnTopDetails": "Omogućuje prikaz aplikacije ispred drugih (nije potrebno ako je SigmaChat već postavljen kao račun za pozivanje)",
     "appearOnTop": "Prikaz ispred drugih",
     "newGroup": "Nova grupa",
     "allSpaces": "Svi prostori",
     "screenSharingTitle": "dijeljenje ekrana",
-    "otherCallingPermissions": "Mikrofon, kamera i druge FluffyChat dozvole",
+    "otherCallingPermissions": "Mikrofon, kamera i druge SigmaChat dozvole",
     "enterSpace": "Upiši prostor",
     "newSpace": "Novi prostor",
     "sorryThatsNotPossible": "Žao nam je … to nije moguće",
@@ -2897,7 +2897,7 @@
     "oneOfYourDevicesIsNotVerified": "Jedan od tvojih uređaja nije potvrđen",
     "noticeChatBackupDeviceVerification": "Napomena: Kada spojiš sve svoje uređaje na sigurnosnu kopiju chata, oni se automatski potvrđuju.",
     "continueText": "Nastavi",
-    "welcomeText": "Hej, hej 👋, ovdje FluffyChat. Možeš se prijaviti na bilo koji homeserver koji je kompatibilan s https://matrix.org. I onda razgovaraj s bilo kim. To je ogromna decentralizirana mreža za razmjenu poruka!",
+    "welcomeText": "Hej, hej 👋, ovdje SigmaChat. Možeš se prijaviti na bilo koji homeserver koji je kompatibilan s https://matrix.org. I onda razgovaraj s bilo kim. To je ogromna decentralizirana mreža za razmjenu poruka!",
     "blur": "Zamućenost:",
     "opacity": "Neprozirnost:",
     "setWallpaper": "Postavi sliku pozadine",
@@ -2932,7 +2932,7 @@
     "appWantsToUseForLoginDescription": "Ovime dopuštaš aplikaciji i web-stranici da dijele podatke o tebi.",
     "open": "Otvori",
     "waitingForServer": "Čekanje na server …",
-    "appIntroduction": "FluffyChat omogućuje da razgovaraš s prijateljima preko različitih messengera. Saznaj više na https://matrix.org ili jednostavno dodirni *Nastavi*.",
+    "appIntroduction": "SigmaChat omogućuje da razgovaraš s prijateljima preko različitih messengera. Saznaj više na https://matrix.org ili jednostavno dodirni *Nastavi*.",
     "newChatRequest": "📩 Novi zahtjev za chat",
     "contentNotificationSettings": "Postavke obavijesti o sadržaju",
     "generalNotificationSettings": "Opće postavke obavijesti",

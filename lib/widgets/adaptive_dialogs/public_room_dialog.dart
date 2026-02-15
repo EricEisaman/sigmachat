@@ -135,8 +135,8 @@ class PublicRoomDialog extends StatelessWidget {
                                       ),
                                       child: AnimatedScale(
                                         duration:
-                                            FluffyThemes.animationDuration,
-                                        curve: FluffyThemes.animationCurve,
+                                            SigmaThemes.animationDuration,
+                                        curve: SigmaThemes.animationCurve,
                                         scale: hovered
                                             ? 1.33
                                             : copied

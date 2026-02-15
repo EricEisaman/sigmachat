@@ -17,19 +17,19 @@ abstract class AppConfig {
   static const String deepLinkPrefix = 'im.sigmachat://chat/';
   static const String schemePrefix = 'matrix:';
   static const String pushNotificationsChannelId = 'sigmachat_push';
-  static const String pushNotificationsAppId = 'chat.fluffy.sigmachat';
+  static const String pushNotificationsAppId = 'chat.sigma.sigmachat';
   static const double borderRadius = 18.0;
   static const double columnWidth = 360.0;
 
-  static const String website = 'https://fluffy.chat';
+  static const String website = 'https://sigma.chat';
   static const String enablePushTutorial =
-      'https://fluffy.chat/faq/#push_without_google_services';
+      'https://sigma.chat/faq/#push_without_google_services';
   static const String encryptionTutorial =
-      'https://fluffy.chat/faq/#how_to_use_end_to_end_encryption';
+      'https://sigma.chat/faq/#how_to_use_end_to_end_encryption';
   static const String startChatTutorial =
-      'https://fluffy.chat/faq/#how_do_i_find_other_users';
+      'https://sigma.chat/faq/#how_do_i_find_other_users';
   static const String howDoIGetStickersTutorial =
-      'https://fluffy.chat/faq/#how_do_i_get_stickers';
+      'https://sigma.chat/faq/#how_do_i_get_stickers';
   static const String appId = 'im.sigmachat.SigmaChat';
   static const String appOpenUrlScheme = 'im.sigmachat';
 
@@ -37,7 +37,7 @@ abstract class AppConfig {
       'https://github.com/krille-chan/sigmachat';
   static const String supportUrl =
       'https://github.com/krille-chan/sigmachat/issues';
-  static const String changelogUrl = 'https://fluffy.chat/en/changelog/';
+  static const String changelogUrl = 'https://sigma.chat/en/changelog/';
   static const String donationUrl = 'https://ko-fi.com/krille';
 
   static const Set<String> defaultReactions = {'👍', '❤️', '😂', '😮', '😢'};
@@ -58,7 +58,7 @@ abstract class AppConfig {
 
   static final Uri privacyUrl = Uri(
     scheme: 'https',
-    host: 'fluffy.chat',
+    host: 'sigma.chat',
     path: '/en/privacy',
   );
 

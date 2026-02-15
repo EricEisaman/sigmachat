@@ -657,8 +657,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "fluffychat": "FluffyChat",
-    "@fluffychat": {
+    "sigmachat": "SigmaChat",
+    "@sigmachat": {
         "type": "String",
         "placeholders": {}
     },
@@ -824,7 +824,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "inviteText": "{username} har invitert deg til FluffyChat. \n1. Installer FluffyChat: https://fluffychat.im \n2. Registrer deg eller logg inn \n3. Åpne invitasjonslenken: \n {link}",
+    "inviteText": "{username} har invitert deg til SigmaChat. \n1. Installer SigmaChat: https://sigmachat.im \n2. Registrer deg eller logg inn \n3. Åpne invitasjonslenken: \n {link}",
     "@inviteText": {
         "type": "String",
         "placeholders": {
@@ -986,8 +986,8 @@
         "type": "String",
         "placeholders": {}
     },
-    "newMessageInFluffyChat": "Ny melding i FluffyChat",
-    "@newMessageInFluffyChat": {
+    "newMessageInSigmaChat": "Ny melding i SigmaChat",
+    "@newMessageInSigmaChat": {
         "type": "String",
         "placeholders": {}
     },
@@ -1472,7 +1472,7 @@
         "type": "String",
         "placeholders": {}
     },
-    "title": "FluffyChat",
+    "title": "SigmaChat",
     "@title": {
         "description": "Title for the application",
         "type": "String",
@@ -2188,9 +2188,9 @@
     "screenSharingTitle": "skjermdeling",
     "screenSharingDetail": "Du deler skjermen din i FuffyChat",
     "callingPermissions": "Anropstillatelser",
-    "callingAccountDetails": "Lar FluffyChat bruke den innebygde Android-oppringingsappen.",
+    "callingAccountDetails": "Lar SigmaChat bruke den innebygde Android-oppringingsappen.",
     "appearOnTop": "Vis øverst",
-    "otherCallingPermissions": "Mikrofon, kamera og andre FluffyChat-tillatelser",
+    "otherCallingPermissions": "Mikrofon, kamera og andre SigmaChat-tillatelser",
     "whyIsThisMessageEncrypted": "Hvorfor er denne meldingen uleselig?",
     "yourGlobalUserIdIs": "Din globale bruker-ID er: ",
     "searchChatsRooms": "Søk etter #chatter, @brukere...",
@@ -2617,7 +2617,7 @@
     "otherNotificationSettings": "Andre varslingsinnstillinger",
     "contentNotificationSettings": "Innstillinger for innholdsvarslinger",
     "generalNotificationSettings": "Generelle varslingsinnstillinger",
-    "appIntroduction": "Med FluffyChat kan du chatte med vennene dine på tvers av forskjellige meldingstjenester. Finn ut mer på https://matrix.org eller trykk bare på *Fortsett*.",
+    "appIntroduction": "Med SigmaChat kan du chatte med vennene dine på tvers av forskjellige meldingstjenester. Finn ut mer på https://matrix.org eller trykk bare på *Fortsett*.",
     "notificationRuleContainsUserNameDescription": "Varsler bruker når en melding inneholder ens brukernavn.",
     "hideMemberChangesInPublicChats": "Skjul medlemsendringer i offentlige chatter",
     "removeFromSpace": "Fjern fra området",
@@ -2663,7 +2663,7 @@
     "prepareSendingAttachment": "Forbered sending av vedlegg...",
     "generatingVideoThumbnail": "Genererer videominiatyrbilde ...",
     "compressVideo": "Komprimerer video...",
-    "welcomeText": "Hei, hei! 👋 Dette er FluffyChat. Du kan logge på hvilken som helst hjemmeserver som er kompatibel med https://matrix.org. Og deretter chatte med hvem som helst. Det er et stort desentralisert meldingsnettverk!",
+    "welcomeText": "Hei, hei! 👋 Dette er SigmaChat. Du kan logge på hvilken som helst hjemmeserver som er kompatibel med https://matrix.org. Og deretter chatte med hvem som helst. Det er et stort desentralisert meldingsnettverk!",
     "notificationRuleIsUserMentionDescription": "Varsler brukeren når de er direkte nevnt i en melding.",
     "notificationRuleContainsDisplayName": "Inneholder visningsnavn",
     "notificationRuleContainsDisplayNameDescription": "Varsler brukeren når en melding inneholder ens visningsnavnet.",
@@ -2897,7 +2897,7 @@
     "storeInSecureStorageDescription": "Oppbevar gjenopprettingsnøkkelen på en sikker lagringsplass på denne enheten.",
     "foregroundServiceRunning": "Denne varslingen vises når forgrunnstjenesten kjører.",
     "callingAccount": "Ringekonto",
-    "appearOnTopDetails": "Lar appen vises øverst (ikke nødvendig hvis du allerede har Fluffychat konfigurert som en ringekonto)",
+    "appearOnTopDetails": "Lar appen vises øverst (ikke nødvendig hvis du allerede har Sigmachat konfigurert som en ringekonto)",
     "longPressToRecordVoiceMessage": "Langt trykk for å spille inn talemelding.",
     "startedAPoll": "{username} startet en avstemning.",
     "@startedAPoll": {

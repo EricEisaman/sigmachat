@@ -37,9 +37,9 @@ class MxcImage extends StatefulWidget {
     this.placeholder,
     this.isThumbnail = true,
     this.animated = false,
-    this.animationDuration = FluffyThemes.animationDuration,
+    this.animationDuration = SigmaThemes.animationDuration,
     this.retryDuration = const Duration(seconds: 2),
-    this.animationCurve = FluffyThemes.animationCurve,
+    this.animationCurve = SigmaThemes.animationCurve,
     this.thumbnailMethod = ThumbnailMethod.scale,
     this.cacheKey,
     this.client,
@@ -143,7 +143,7 @@ class _MxcImageState extends State<MxcImage> {
     final hasData = data != null && data.isNotEmpty;
 
     return AnimatedSwitcher(
-      duration: FluffyThemes.animationDuration,
+      duration: SigmaThemes.animationDuration,
       child: hasData
           ? ClipRRect(
               borderRadius: widget.borderRadius,

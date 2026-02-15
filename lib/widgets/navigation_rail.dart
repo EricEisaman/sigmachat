@@ -43,9 +43,9 @@ class SpacesNavigationRail extends StatelessWidget {
                 .toList();
 
             return SizedBox(
-              width: FluffyThemes.isColumnMode(context)
-                  ? FluffyThemes.navRailWidth
-                  : FluffyThemes.navRailWidth * 0.75,
+              width: SigmaThemes.isColumnMode(context)
+                  ? SigmaThemes.navRailWidth
+                  : SigmaThemes.navRailWidth * 0.75,
               child: Column(
                 children: [
                   Expanded(

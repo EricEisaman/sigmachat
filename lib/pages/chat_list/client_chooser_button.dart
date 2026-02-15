@@ -10,7 +10,7 @@ import 'package:sigmachat/l10n/l10n.dart';
 import 'package:sigmachat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
 import 'package:sigmachat/widgets/avatar.dart';
 import 'package:sigmachat/widgets/matrix.dart';
-import '../../utils/fluffy_share.dart';
+import '../../utils/sigma_share.dart';
 import 'chat_list.dart';
 
 class ClientChooserButton extends StatelessWidget {
@@ -176,7 +176,7 @@ class ClientChooserButton extends StatelessWidget {
         borderRadius: BorderRadius.circular(99),
         color: Colors.transparent,
         child: PopupMenuButton<Object>(
-          popUpAnimationStyle: FluffyThemes.isColumnMode(context)
+          popUpAnimationStyle: SigmaThemes.isColumnMode(context)
               ? AnimationStyle.noAnimation
               : null, // https://github.com/flutter/flutter/issues/167180
           onSelected: (o) => _clientSelected(o, context),
@@ -216,7 +216,7 @@ class ClientChooserButton extends StatelessWidget {
           context.go('/rooms/newgroup');
           break;
         case SettingsAction.invite:
-          FluffyShare.shareInviteLink(context);
+          SigmaShare.shareInviteLink(context);
           break;
         case SettingsAction.support:
           launchUrlString(AppConfig.donationUrl);
