@@ -20,6 +20,13 @@ server {
         return 200 "healthy\n";
     }
 
+    # Reverse proxy for homeserver list (CORS fix)
+    location /joinmatrix/ {
+        proxy_pass https://servers.joinmatrix.org/;
+        proxy_set_header Host servers.joinmatrix.org;
+        proxy_ssl_server_name on;
+    }
+
     # Cache static assets
     location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg)$ {
         expires 1y;

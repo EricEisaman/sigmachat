@@ -1,4 +1,5 @@
 import 'dart:ui';
+import 'package:flutter/foundation.dart';
 
 abstract class AppConfig {
   // Const and final configuration values (immutable)
@@ -47,11 +48,13 @@ abstract class AppConfig {
     path: '/krille-chan/sigmachat/issues/new',
   );
 
-  static final Uri homeserverList = Uri(
-    scheme: 'https',
-    host: 'servers.joinmatrix.org',
-    path: 'servers.json',
-  );
+  static final Uri homeserverList = kIsWeb
+      ? Uri.parse('/joinmatrix/servers.json')
+      : Uri(
+          scheme: 'https',
+          host: 'servers.joinmatrix.org',
+          path: 'servers.json',
+        );
 
   static final Uri privacyUrl = Uri(
     scheme: 'https',
