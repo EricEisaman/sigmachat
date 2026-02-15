@@ -2,13 +2,6 @@
 <html>
 
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-  -->
   <base href="/">
 
   <meta charset="UTF-8">
@@ -34,14 +27,14 @@
 
 <body>
   <script>
-    window.addEventListener('load', function () {
+    window.addEventListener("load", function () {
       // These will be injected by Flutter’s build system.
-      { { flutter_js } }
-      { { flutter_build_config } }
+      {{flutter_js}}
+      {{flutter_build_config}}
 
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
-          serviceWorkerVersion: "{{flutter_service_worker_version}}",
+          serviceWorkerVersion: {{flutter_service_worker_version}},
         },
         onEntrypointLoaded: function (engineInitializer) {
           engineInitializer.initializeEngine({
