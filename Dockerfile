@@ -31,7 +31,7 @@ COPY scripts ./scripts
 COPY web ./web
 
 # Prepare web: installs heavy Rust dependencies and compiles native executor
-RUN mkdir -p assets/vodozemac && ./scripts/prepare-web.sh
+RUN mkdir -p web/assets/vodozemac && ./scripts/prepare-web.sh
 
 # Copy config if exists, otherwise use sample
 COPY config.sample.json ./config.json
