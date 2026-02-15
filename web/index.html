@@ -8,17 +8,11 @@
 
     The path provided below has to start and end with a slash "/" in order for
     it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="$FLUTTER_BASE_HREF">
+  <base href="/">
 
   <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="description" content="The cutest messenger in the Sigma network.">
 
   <!-- iOS meta tags & icons -->
@@ -28,12 +22,11 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="icon" type="image/png" href="favicon.png">
 
   <title>SigmaChat</title>
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" type="text/css" href="splash/style.css">
-  <script src="Imaging.js"></script>
 
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -41,22 +34,26 @@
 
 <body>
   <script>
-    window.addEventListener('load', function (ev) {
+    window.addEventListener('load', function () {
+      // These will be injected by Flutter’s build system.
       { { flutter_js } }
       { { flutter_build_config } }
 
-      _flutter.loader.load({
+      _flutter.loader.loadEntrypoint({
         serviceWorker: {
-          serviceWorkerVersion: {{ flutter_service_worker_version }},
+          serviceWorkerVersion: "{{flutter_service_worker_version}}",
         },
-      onEntrypointLoaded: function (engineInitializer) {
-        engineInitializer.initializeEngine({ useColorEmoji: true }).then(function (appRunner) {
-          appRunner.runApp();
-        });
-      }
+        onEntrypointLoaded: function (engineInitializer) {
+          engineInitializer.initializeEngine({
+            useColorEmoji: true,
+          }).then(function (appRunner) {
+            appRunner.runApp();
+          });
+        }
       });
     });
   </script>
+
   <picture id="splash">
     <source
       srcset="splash/img/light-1x.png 1x, splash/img/light-2x.png 2x, splash/img/light-3x.png 3x, splash/img/light-4x.png 4x"
