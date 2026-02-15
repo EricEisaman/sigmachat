@@ -1,0 +1,37 @@
+services:
+  - type: web
+    name: sigmachat
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    autoDeploy: true 
+    envVars:
+      - key: PORT
+        value: 10000
+    buildFilter:
+      paths:
+        - lib/**
+        - web/**
+        - assets/**
+        - scripts/**
+        - pubspec.yaml
+        - pubspec.lock
+        - Dockerfile
+        - nginx.conf.template
+        - docker-entrypoint.sh
+        - config.json
+        - config.sample.json
+      ignoredPaths:
+        - README.md
+        - .git/**
+        - .github/**
+        - android/**
+        - ios/**
+        - macos/**
+        - windows/**
+        - linux/**
+        - test/**
+        - doc/**
