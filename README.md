@@ -6,11 +6,6 @@ The goal of the app is to create an easy to use instant messenger which is open 
 
 - 🌐 [[Weblate] Translate SigmaChat into your language](https://hosted.weblate.org/projects/sigmachat/)
 
-### Screenshots:
-
-<img src="https://github.com/EricEisaman/sigmachat-website/blob/main/src/assets/screenshots/mobile.png?raw=true" height="300">
-<img src="https://github.com/EricEisaman/sigmachat-website/blob/main/src/assets/screenshots/desktop.png?raw=true" height="300">
-
 # Features
 
 - 📩 Send all kinds of messages, images and files
@@ -95,15 +90,5 @@ flutter build macos --release
 
 
 # Special thanks
-
-* <a href="https://github.com/fabiyamada">Fabiyamada</a> is a graphics designer and has made the sigmachat logo and the banner. Big thanks for her great designs.
-
-* <a href="https://github.com/advocatux">Advocatux</a> has made the Spanish translation with great love and care. He always stands by my side and supports my work with great commitment.
-
-* Thanks to MTRNord and Sorunome for developing.
-
-* Also thanks to all translators and testers! With your help, sigmachat is now available in more than 12 languages.
-
-* <a href="https://github.com/madsrh/WoodenBeaver">WoodenBeaver</a> sound theme for the notification sound.
 
 * The Matrix Foundation for making and maintaining the [emoji translations](https://github.com/matrix-org/matrix-spec/blob/main/data-definitions/sas-emoji.json) used for emoji verification, licensed Apache 2.0
