@@ -1,5 +1,5 @@
 # Stage 1: Builder
-FROM ghcr.io/cirruslabs/flutter:3.24.3 as builder
+FROM ghcr.io/cirruslabs/flutter:stable as builder
 
 # Install system dependencies
 # These layers will be cached unless the commands change
