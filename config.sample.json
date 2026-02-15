@@ -1,7 +1,7 @@
 {
   "applicationName": "SigmaChat",
   "defaultHomeserver": "matrix.org",
-  "privacyUrl": "https://github.com/krille-chan/sigmachat/blob/main/PRIVACY.md",
+  "privacyUrl": "https://github.com/EricEisaman/sigmachat/blob/main/PRIVACY.md",
   "audioRecordingNumChannels": 1,
   "audioRecordingAutoGain": true,
   "audioRecordingEchoCancel": false,

@@ -34,9 +34,9 @@ abstract class AppConfig {
   static const String appOpenUrlScheme = 'im.sigmachat';
 
   static const String sourceCodeUrl =
-      'https://github.com/krille-chan/sigmachat';
+      'https://github.com/EricEisaman/sigmachat';
   static const String supportUrl =
-      'https://github.com/krille-chan/sigmachat/issues';
+      'https://github.com/EricEisaman/sigmachat/issues';
   static const String changelogUrl = 'https://sigma.chat/en/changelog/';
   static const String donationUrl = 'https://ko-fi.com/krille';
 
@@ -45,7 +45,7 @@ abstract class AppConfig {
   static final Uri newIssueUrl = Uri(
     scheme: 'https',
     host: 'github.com',
-    path: '/krille-chan/sigmachat/issues/new',
+    path: '/EricEisaman/sigmachat/issues/new',
   );
 
   static final Uri homeserverList = kIsWeb
