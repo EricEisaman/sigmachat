@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/l10n/l10n.dart';
+import 'package:sigmachat/config/app_config.dart';
+import 'package:sigmachat/l10n/l10n.dart';
 
 class PermissionsListTile extends StatelessWidget {
   final String permissionKey;

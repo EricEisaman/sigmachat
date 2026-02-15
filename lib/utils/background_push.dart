@@ -33,11 +33,11 @@ import 'package:matrix/matrix.dart';
 import 'package:unifiedpush/unifiedpush.dart';
 import 'package:unifiedpush_ui/unifiedpush_ui.dart';
 
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/main.dart';
-import 'package:fluffychat/utils/notification_background_handler.dart';
-import 'package:fluffychat/utils/push_helper.dart';
-import 'package:fluffychat/widgets/fluffy_chat_app.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/main.dart';
+import 'package:sigmachat/utils/notification_background_handler.dart';
+import 'package:sigmachat/utils/push_helper.dart';
+import 'package:sigmachat/widgets/fluffy_chat_app.dart';
 import '../config/app_config.dart';
 import '../config/setting_keys.dart';
 import '../widgets/matrix.dart';
@@ -84,7 +84,7 @@ class BackgroundPush {
           await notificationTap(
             NotificationResponseJson.fromJsonString(message),
             client: client,
-            router: FluffyChatApp.router,
+            router: SigmaChatApp.router,
             l10n: l10n,
           );
         } catch (e, s) {
@@ -103,7 +103,7 @@ class BackgroundPush {
             await notificationTap(
               NotificationResponseJson.fromJsonString(message),
               client: client,
-              router: FluffyChatApp.router,
+              router: SigmaChatApp.router,
               l10n: l10n,
             );
           } catch (e, s) {
@@ -119,7 +119,7 @@ class BackgroundPush {
         onDidReceiveNotificationResponse: (response) => notificationTap(
           response,
           client: client,
-          router: FluffyChatApp.router,
+          router: SigmaChatApp.router,
           l10n: l10n,
         ),
         onDidReceiveBackgroundNotificationResponse: notificationTapBackground,
@@ -327,7 +327,7 @@ class BackgroundPush {
         notificationTap(
           response,
           client: client,
-          router: FluffyChatApp.router,
+          router: SigmaChatApp.router,
           l10n: l10n,
         );
       }

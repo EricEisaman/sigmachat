@@ -9,13 +9,13 @@ import 'package:image/image.dart';
 import 'package:matrix/matrix.dart';
 import 'package:universal_html/html.dart' as html;
 
-import 'package:fluffychat/config/setting_keys.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/client_download_content_extension.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/push_helper.dart';
-import 'package:fluffychat/widgets/fluffy_chat_app.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:sigmachat/config/setting_keys.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/utils/client_download_content_extension.dart';
+import 'package:sigmachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:sigmachat/utils/push_helper.dart';
+import 'package:sigmachat/widgets/fluffy_chat_app.dart';
+import 'package:sigmachat/widgets/matrix.dart';
 
 extension LocalNotificationsExtension on MatrixState {
   static final html.AudioElement _audioPlayer = html.AudioElement()
@@ -118,7 +118,7 @@ extension LocalNotificationsExtension on MatrixState {
         body: body,
         replacesId: linuxNotificationIds[roomId] ?? 0,
         appName: AppSettings.applicationName.value,
-        appIcon: 'fluffychat',
+        appIcon: 'sigmachat',
         actions: [
           NotificationAction(
             DesktopNotificationActions.openChat.name,
@@ -149,7 +149,7 @@ extension LocalNotificationsExtension on MatrixState {
           case DesktopNotificationActions.openChat:
             setActiveClient(event.room.client);
 
-            FluffyChatApp.router.go('/rooms/${event.room.id}');
+            SigmaChatApp.router.go('/rooms/${event.room.id}');
             break;
         }
       });

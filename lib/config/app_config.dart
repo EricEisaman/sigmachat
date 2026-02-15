@@ -13,10 +13,10 @@ abstract class AppConfig {
   static const bool hideTypingUsernames = false;
 
   static const String inviteLinkPrefix = 'https://matrix.to/#/';
-  static const String deepLinkPrefix = 'im.fluffychat://chat/';
+  static const String deepLinkPrefix = 'im.sigmachat://chat/';
   static const String schemePrefix = 'matrix:';
-  static const String pushNotificationsChannelId = 'fluffychat_push';
-  static const String pushNotificationsAppId = 'chat.fluffy.fluffychat';
+  static const String pushNotificationsChannelId = 'sigmachat_push';
+  static const String pushNotificationsAppId = 'chat.fluffy.sigmachat';
   static const double borderRadius = 18.0;
   static const double columnWidth = 360.0;
 
@@ -29,13 +29,13 @@ abstract class AppConfig {
       'https://fluffy.chat/faq/#how_do_i_find_other_users';
   static const String howDoIGetStickersTutorial =
       'https://fluffy.chat/faq/#how_do_i_get_stickers';
-  static const String appId = 'im.fluffychat.FluffyChat';
-  static const String appOpenUrlScheme = 'im.fluffychat';
+  static const String appId = 'im.sigmachat.SigmaChat';
+  static const String appOpenUrlScheme = 'im.sigmachat';
 
   static const String sourceCodeUrl =
-      'https://github.com/krille-chan/fluffychat';
+      'https://github.com/krille-chan/sigmachat';
   static const String supportUrl =
-      'https://github.com/krille-chan/fluffychat/issues';
+      'https://github.com/krille-chan/sigmachat/issues';
   static const String changelogUrl = 'https://fluffy.chat/en/changelog/';
   static const String donationUrl = 'https://ko-fi.com/krille';
 
@@ -44,7 +44,7 @@ abstract class AppConfig {
   static final Uri newIssueUrl = Uri(
     scheme: 'https',
     host: 'github.com',
-    path: '/krille-chan/fluffychat/issues/new',
+    path: '/krille-chan/sigmachat/issues/new',
   );
 
   static final Uri homeserverList = Uri(

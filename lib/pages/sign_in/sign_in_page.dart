@@ -2,16 +2,16 @@ import 'package:flutter/material.dart';
 
 import 'package:url_launcher/url_launcher_string.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/pages/sign_in/view_model/flows/check_homeserver.dart';
-import 'package:fluffychat/pages/sign_in/view_model/model/public_homeserver_data.dart';
-import 'package:fluffychat/pages/sign_in/view_model/sign_in_view_model.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/widgets/layouts/login_scaffold.dart';
-import 'package:fluffychat/widgets/matrix.dart';
-import 'package:fluffychat/widgets/view_model_builder.dart';
+import 'package:sigmachat/config/app_config.dart';
+import 'package:sigmachat/config/themes.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/pages/sign_in/view_model/flows/check_homeserver.dart';
+import 'package:sigmachat/pages/sign_in/view_model/model/public_homeserver_data.dart';
+import 'package:sigmachat/pages/sign_in/view_model/sign_in_view_model.dart';
+import 'package:sigmachat/utils/localized_exception_extension.dart';
+import 'package:sigmachat/widgets/layouts/login_scaffold.dart';
+import 'package:sigmachat/widgets/matrix.dart';
+import 'package:sigmachat/widgets/view_model_builder.dart';
 
 class SignInPage extends StatelessWidget {
   final bool signUp;

@@ -1,6 +1,6 @@
-*Thank you so much for your contribution to FluffyChat ❤️❤️❤️*
+*Thank you so much for your contribution to SigmaChat ❤️❤️❤️*
 
-- [ ] I have read and understood the [contributing guidelines](https://github.com/krille-chan/fluffychat/blob/main/CONTRIBUTING.md). 
+- [ ] I have read and understood the [contributing guidelines](https://github.com/krille-chan/sigmachat/blob/main/CONTRIBUTING.md). 
 
 ### Pull Request has been tested on:
 

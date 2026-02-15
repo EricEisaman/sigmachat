@@ -8,11 +8,11 @@ import 'package:html/dom.dart' as dom;
 import 'package:html/parser.dart' as parser;
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/utils/code_highlight_theme.dart';
-import 'package:fluffychat/utils/event_checkbox_extension.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
-import 'package:fluffychat/widgets/mxc_image.dart';
+import 'package:sigmachat/utils/code_highlight_theme.dart';
+import 'package:sigmachat/utils/event_checkbox_extension.dart';
+import 'package:sigmachat/widgets/avatar.dart';
+import 'package:sigmachat/widgets/future_loading_dialog.dart';
+import 'package:sigmachat/widgets/mxc_image.dart';
 import '../../../utils/url_launcher.dart';
 
 class HtmlMessage extends StatelessWidget {

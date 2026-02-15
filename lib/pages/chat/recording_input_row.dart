@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/pages/chat/chat_input_row.dart';
-import 'package:fluffychat/pages/chat/recording_view_model.dart';
+import 'package:sigmachat/config/themes.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/pages/chat/chat_input_row.dart';
+import 'package:sigmachat/pages/chat/recording_view_model.dart';
 
 class RecordingInputRow extends StatelessWidget {
   final RecordingViewModelState state;

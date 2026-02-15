@@ -1,6 +1,6 @@
 {
-    "name": "FluffyChat",
-    "short_name": "FluffyChat",
+    "name": "SigmaChat",
+    "short_name": "SigmaChat",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

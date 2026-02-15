@@ -1,11 +1,11 @@
-name: fluffychat
-title: FluffyChat
+name: sigmachat
+title: SigmaChat
 base: core24
 version: 2.4.0
 license: AGPL-3.0
 summary: The cutest messenger in the Matrix network
 description: |
-  FluffyChat is an open source, nonprofit and cute matrix messenger app. The app is easy to use but secure and decentralized.
+  SigmaChat is an open source, nonprofit and cute matrix messenger app. The app is easy to use but secure and decentralized.
 
 
   ## Features
@@ -29,7 +29,7 @@ description: |
   - And much more...
 
 
-  ## FluffyChat comes with a dream
+  ## SigmaChat comes with a dream
 
   Imagine a world where everyone can choose the messenger they like and is still able to chat with all of their friends.
 
@@ -74,7 +74,7 @@ parts:
       - zip
     override-prime: ''
 
-  fluffychat:
+  sigmachat:
     after: [flutter-git]
     plugin: nil
     source: .
@@ -102,11 +102,11 @@ slots:
   dbus-svc:
     interface: dbus
     bus: session
-    name: chat.fluffy.fluffychat
+    name: chat.fluffy.sigmachat
 
 apps:
-  fluffychat:
-    command: bin/fluffychat
+  sigmachat:
+    command: bin/sigmachat
     extensions: [ gnome ]
     plugs:
       - audio-playback

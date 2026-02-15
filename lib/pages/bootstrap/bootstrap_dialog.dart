@@ -5,17 +5,17 @@ import 'package:go_router/go_router.dart';
 import 'package:matrix/encryption.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/error_reporter.dart';
-import 'package:fluffychat/utils/fluffy_share.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/sync_status_localization.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
-import 'package:fluffychat/widgets/layouts/login_scaffold.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:sigmachat/config/themes.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/utils/error_reporter.dart';
+import 'package:sigmachat/utils/fluffy_share.dart';
+import 'package:sigmachat/utils/localized_exception_extension.dart';
+import 'package:sigmachat/utils/platform_infos.dart';
+import 'package:sigmachat/utils/sync_status_localization.dart';
+import 'package:sigmachat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
+import 'package:sigmachat/widgets/future_loading_dialog.dart';
+import 'package:sigmachat/widgets/layouts/login_scaffold.dart';
+import 'package:sigmachat/widgets/matrix.dart';
 import '../key_verification/key_verification_dialog.dart';
 
 class BootstrapDialog extends StatefulWidget {

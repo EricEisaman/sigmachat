@@ -3,12 +3,12 @@ import 'package:flutter/services.dart';
 
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/url_launcher.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
-import 'package:fluffychat/widgets/mxc_image.dart';
-import 'package:fluffychat/widgets/mxc_image_viewer.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/utils/platform_infos.dart';
+import 'package:sigmachat/utils/url_launcher.dart';
+import 'package:sigmachat/widgets/layouts/max_width_body.dart';
+import 'package:sigmachat/widgets/mxc_image.dart';
+import 'package:sigmachat/widgets/mxc_image_viewer.dart';
 import '../../widgets/matrix.dart';
 import 'settings_emotes.dart';
 

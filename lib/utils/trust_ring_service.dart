@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:matrix/matrix.dart'; // For Matrix client and crypto
-import 'package:fluffychat/utils/steganography_helper.dart';
+import 'package:sigmachat/utils/steganography_helper.dart';
 
 class TrustRingService {
   final Client client;

@@ -4,16 +4,16 @@ import 'package:go_router/go_router.dart';
 import 'package:matrix/matrix.dart';
 import 'package:pretty_qr_code/pretty_qr_code.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/pages/new_private_chat/new_private_chat.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/url_launcher.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:sigmachat/config/app_config.dart';
+import 'package:sigmachat/config/themes.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/pages/new_private_chat/new_private_chat.dart';
+import 'package:sigmachat/utils/localized_exception_extension.dart';
+import 'package:sigmachat/utils/platform_infos.dart';
+import 'package:sigmachat/utils/url_launcher.dart';
+import 'package:sigmachat/widgets/avatar.dart';
+import 'package:sigmachat/widgets/layouts/max_width_body.dart';
+import 'package:sigmachat/widgets/matrix.dart';
 import '../../widgets/qr_code_viewer.dart';
 
 class NewPrivateChatView extends StatelessWidget {

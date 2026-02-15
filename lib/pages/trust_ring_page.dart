@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:provider/provider.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart'; 
+import 'package:sigmachat/utils/matrix_sdk_extensions/matrix_locals.dart'; 
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/utils/trust_ring_service.dart';
+import 'package:sigmachat/utils/trust_ring_service.dart';
 
 class TrustRingPage extends StatefulWidget {
   final Client client;

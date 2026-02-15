@@ -3,12 +3,13 @@
 This file indexes the activity and artifacts produced by the Antigravity AI agent during this session.
 
 ## Session Overview
-- **Objective**: Optimize Docker deployment for Render.com (Free Tier) and implement a secure "Ring of Trust" steganographic invitation system.
+- **Objective**: Rebrand to SigmaChat, optimize Docker deployment for Render.com (Free Tier), and implement a secure "Ring of Trust" steganographic invitation system.
 - **Session ID**: `657fc415-26f7-4083-b13c-8424736ff413`
 
 ## Key Accomplishments
 
-### 1. Docker & Deployment Optimization
+- Complete rebranding from FluffyChat to **SigmaChat** (Global text search/replace + asset update).
+- Corrected branding asset assignments (Logo vs Icon).
 - Refactored `Dockerfile` for multi-stage builds and aggressive layer caching.
 - Enhanced `render.yaml` with free-tier optimizations and build filters.
 - Implemented dynamic port handling via `nginx.conf.template` and `docker-entrypoint.sh`.

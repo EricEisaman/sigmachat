@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/pages/invitation_selection/invitation_selection_view.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/pages/invitation_selection/invitation_selection_view.dart';
+import 'package:sigmachat/widgets/future_loading_dialog.dart';
+import 'package:sigmachat/widgets/matrix.dart';
 import '../../utils/localized_exception_extension.dart';
 
 class InvitationSelection extends StatefulWidget {

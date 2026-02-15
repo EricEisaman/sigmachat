@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:intl/intl.dart';
 
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/utils/platform_infos.dart';
 
 /// Provides extra functionality for formatting the time.
 extension DateTimeExtension on DateTime {
@@ -87,7 +87,7 @@ extension DateTimeExtension on DateTime {
 
     final l10n24h = L10n.of(context).alwaysUse24HourFormat == 'true';
 
-    // https://github.com/krille-chan/fluffychat/pull/1457#discussion_r1836817914
+    // https://github.com/krille-chan/sigmachat/pull/1457#discussion_r1836817914
     if (PlatformInfos.isAndroid) {
       return mediaQuery24h;
     } else if (PlatformInfos.isIOS) {

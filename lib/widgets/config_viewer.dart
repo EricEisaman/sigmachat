@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'package:fluffychat/config/setting_keys.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_text_input_dialog.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:sigmachat/config/setting_keys.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/widgets/adaptive_dialogs/show_text_input_dialog.dart';
+import 'package:sigmachat/widgets/matrix.dart';
 
 class ConfigViewer extends StatefulWidget {
   const ConfigViewer({super.key});

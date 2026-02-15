@@ -7,11 +7,11 @@ import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 Future<Client> prepareTestClient({
   bool loggedIn = false,
   Uri? homeserver,
-  String id = 'FluffyChat Widget Test',
+  String id = 'SigmaChat Widget Test',
 }) async {
   homeserver ??= Uri.parse('https://fakeserver.notexisting');
   final client = Client(
-    'FluffyChat Widget Tests',
+    'SigmaChat Widget Tests',
     httpClient: FakeMatrixApi()
       ..api['GET']!['/.well-known/matrix/client'] = (req) => {},
     verificationMethods: {

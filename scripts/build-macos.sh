@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 git apply ./scripts/enable-android-google-services.patch
-FLUFFYCHAT_ORIG_GROUP="im.fluffychat"
+FLUFFYCHAT_ORIG_GROUP="im.sigmachat"
 FLUFFYCHAT_ORIG_TEAM="4NXF6Z997G"
-#FLUFFYCHAT_NEW_GROUP="com.example.fluffychat"
+#FLUFFYCHAT_NEW_GROUP="com.example.sigmachat"
 #FLUFFYCHAT_NEW_TEAM="ABCDE12345"
 
 # In some cases (ie: running beta XCode releases) some pods haven't updated their minimum version
@@ -30,4 +30,4 @@ FLUFFYCHAT_ORIG_TEAM="4NXF6Z997G"
 ### Make release build ###
 flutter build macos --release
 
-echo "Build build/macos/Build/Products/Release/FluffyChat.app"
+echo "Build build/macos/Build/Products/Release/SigmaChat.app"

@@ -8,12 +8,12 @@ import 'package:flutter_vodozemac/flutter_vodozemac.dart' as vod;
 import 'package:go_router/go_router.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/client_download_content_extension.dart';
-import 'package:fluffychat/utils/client_manager.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/push_helper.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/utils/client_download_content_extension.dart';
+import 'package:sigmachat/utils/client_manager.dart';
+import 'package:sigmachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:sigmachat/utils/platform_infos.dart';
+import 'package:sigmachat/utils/push_helper.dart';
 import '../config/app_config.dart';
 import '../config/setting_keys.dart';
 
@@ -112,7 +112,7 @@ Future<void> notificationTap(
     'Notification action handler started',
     notificationResponse.notificationResponseType.name,
   );
-  final payload = FluffyChatPushPayload.fromString(
+  final payload = SigmaChatPushPayload.fromString(
     notificationResponse.payload ?? '',
   );
   switch (notificationResponse.notificationResponseType) {
@@ -138,7 +138,7 @@ Future<void> notificationTap(
             : '/rooms/$roomId',
       );
     case NotificationResponseType.selectedNotificationAction:
-      final actionType = FluffyChatNotificationActions.values.singleWhereOrNull(
+      final actionType = SigmaChatNotificationActions.values.singleWhereOrNull(
         (action) => action.name == notificationResponse.actionId,
       );
       if (actionType == null) {
@@ -158,13 +158,13 @@ Future<void> notificationTap(
         );
       }
       switch (actionType) {
-        case FluffyChatNotificationActions.markAsRead:
+        case SigmaChatNotificationActions.markAsRead:
           await room.setReadMarker(
             payload.eventId ?? room.lastEvent!.eventId,
             mRead: payload.eventId ?? room.lastEvent!.eventId,
             public: AppSettings.sendPublicReadReceipts.value,
           );
-        case FluffyChatNotificationActions.reply:
+        case SigmaChatNotificationActions.reply:
           final input = notificationResponse.input;
           if (input == null || input.isEmpty) {
             throw Exception(
@@ -229,7 +229,7 @@ Future<void> notificationTap(
                   enableVibration: false,
                   actions: <AndroidNotificationAction>[
                     AndroidNotificationAction(
-                      FluffyChatNotificationActions.reply.name,
+                      SigmaChatNotificationActions.reply.name,
                       l10n.reply,
                       inputs: [
                         AndroidNotificationActionInput(
@@ -241,14 +241,14 @@ Future<void> notificationTap(
                       semanticAction: SemanticAction.reply,
                     ),
                     AndroidNotificationAction(
-                      FluffyChatNotificationActions.markAsRead.name,
+                      SigmaChatNotificationActions.markAsRead.name,
                       l10n.markAsRead,
                       semanticAction: SemanticAction.markAsRead,
                     ),
                   ],
                 ),
               ),
-              payload: FluffyChatPushPayload(
+              payload: SigmaChatPushPayload(
                 client.clientName,
                 room.id,
                 eventId,
@@ -259,4 +259,4 @@ Future<void> notificationTap(
   }
 }
 
-enum FluffyChatNotificationActions { markAsRead, reply }
+enum SigmaChatNotificationActions { markAsRead, reply }

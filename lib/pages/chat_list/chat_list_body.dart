@@ -3,17 +3,17 @@ import 'package:flutter/material.dart';
 
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/setting_keys.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/pages/chat_list/chat_list.dart';
-import 'package:fluffychat/pages/chat_list/chat_list_item.dart';
-import 'package:fluffychat/pages/chat_list/dummy_chat_list_item.dart';
-import 'package:fluffychat/pages/chat_list/search_title.dart';
-import 'package:fluffychat/pages/chat_list/space_view.dart';
-import 'package:fluffychat/pages/chat_list/status_msg_list.dart';
-import 'package:fluffychat/utils/stream_extension.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/public_room_dialog.dart';
-import 'package:fluffychat/widgets/avatar.dart';
+import 'package:sigmachat/config/setting_keys.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/pages/chat_list/chat_list.dart';
+import 'package:sigmachat/pages/chat_list/chat_list_item.dart';
+import 'package:sigmachat/pages/chat_list/dummy_chat_list_item.dart';
+import 'package:sigmachat/pages/chat_list/search_title.dart';
+import 'package:sigmachat/pages/chat_list/space_view.dart';
+import 'package:sigmachat/pages/chat_list/status_msg_list.dart';
+import 'package:sigmachat/utils/stream_extension.dart';
+import 'package:sigmachat/widgets/adaptive_dialogs/public_room_dialog.dart';
+import 'package:sigmachat/widgets/avatar.dart';
 import '../../config/themes.dart';
 import '../../widgets/adaptive_dialogs/user_dialog.dart';
 import '../../widgets/matrix.dart';

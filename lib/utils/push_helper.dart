@@ -9,14 +9,14 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_shortcuts_new/flutter_shortcuts_new.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/setting_keys.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/client_download_content_extension.dart';
-import 'package:fluffychat/utils/client_manager.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/notification_background_handler.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
+import 'package:sigmachat/config/app_config.dart';
+import 'package:sigmachat/config/setting_keys.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/utils/client_download_content_extension.dart';
+import 'package:sigmachat/utils/client_manager.dart';
+import 'package:sigmachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:sigmachat/utils/notification_background_handler.dart';
+import 'package:sigmachat/utils/platform_infos.dart';
 
 const notificationAvatarDimension = 128;
 
@@ -43,7 +43,7 @@ Future<void> pushHelper(
     l10n ??= await lookupL10n(PlatformDispatcher.instance.locale);
     await flutterLocalNotificationsPlugin.show(
       id: notification.roomId?.hashCode ?? 0,
-      title: l10n.newMessageInFluffyChat,
+      title: l10n.newMessageInSigmaChat,
       body: l10n.openAppToReadMessages,
       notificationDetails: NotificationDetails(
         iOS: const DarwinNotificationDetails(),
@@ -146,7 +146,7 @@ Future<void> _tryPushHelper(
 
   // Calculate the body
   final body = event.type == EventTypes.Encrypted
-      ? l10n.newMessageInFluffyChat
+      ? l10n.newMessageInSigmaChat
       : await event.calcLocalizedBody(
           matrixLocals,
           plaintextBody: true,
@@ -288,7 +288,7 @@ Future<void> _tryPushHelper(
         ? null
         : <AndroidNotificationAction>[
             AndroidNotificationAction(
-              FluffyChatNotificationActions.reply.name,
+              SigmaChatNotificationActions.reply.name,
               l10n.reply,
               inputs: [
                 AndroidNotificationActionInput(label: l10n.writeAMessage),
@@ -298,7 +298,7 @@ Future<void> _tryPushHelper(
               semanticAction: SemanticAction.reply,
             ),
             AndroidNotificationAction(
-              FluffyChatNotificationActions.markAsRead.name,
+              SigmaChatNotificationActions.markAsRead.name,
               l10n.markAsRead,
               semanticAction: SemanticAction.markAsRead,
             ),
@@ -321,7 +321,7 @@ Future<void> _tryPushHelper(
     title: title,
     body: body,
     notificationDetails: platformChannelSpecifics,
-    payload: FluffyChatPushPayload(
+    payload: SigmaChatPushPayload(
       client.clientName,
       event.room.id,
       event.eventId,
@@ -330,17 +330,17 @@ Future<void> _tryPushHelper(
   Logs().v('Push helper has been completed!');
 }
 
-class FluffyChatPushPayload {
+class SigmaChatPushPayload {
   final String? clientName, roomId, eventId;
 
-  FluffyChatPushPayload(this.clientName, this.roomId, this.eventId);
+  SigmaChatPushPayload(this.clientName, this.roomId, this.eventId);
 
-  factory FluffyChatPushPayload.fromString(String payload) {
+  factory SigmaChatPushPayload.fromString(String payload) {
     final parts = payload.split('|');
     if (parts.length != 3) {
-      return FluffyChatPushPayload(null, null, null);
+      return SigmaChatPushPayload(null, null, null);
     }
-    return FluffyChatPushPayload(parts[0], parts[1], parts[2]);
+    return SigmaChatPushPayload(parts[0], parts[1], parts[2]);
   }
 
   @override

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/widgets/future_loading_dialog.dart';
+import 'package:sigmachat/widgets/layouts/max_width_body.dart';
 import '../../widgets/matrix.dart';
 import 'settings_ignore_list.dart';
 

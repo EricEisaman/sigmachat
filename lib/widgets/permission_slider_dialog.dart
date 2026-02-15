@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/adaptive_dialog_action.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/dialog_text_field.dart';
+import 'package:sigmachat/l10n/l10n.dart';
+import 'package:sigmachat/widgets/adaptive_dialogs/adaptive_dialog_action.dart';
+import 'package:sigmachat/widgets/adaptive_dialogs/dialog_text_field.dart';
 
 Future<int?> showPermissionChooser(
   BuildContext context, {
