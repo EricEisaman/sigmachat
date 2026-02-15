@@ -4,6 +4,10 @@ server {
     root /usr/share/nginx/html;
     index index.html;
 
+    # Headers for SharedArrayBuffer (WASM multi-threading)
+    add_header Cross-Origin-Opener-Policy same-origin;
+    add_header Cross-Origin-Embedder-Policy require-corp;
+
     # Gzip Compression
     gzip on;
     gzip_min_length 1000;
